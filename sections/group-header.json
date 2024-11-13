@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header",
@@ -8,16 +17,31 @@
         "logo": {
           "type": "logo",
           "settings": {
-            "logoImage": "{{ shop.brand.logo }}"
+            "logoImage": "shopify://shop_images/Screenshot_2024-11-13_at_10.41.56.png",
+            "logoImageSize": 40,
+            "logoName": "",
+            "logoFont": "helvetica_n4",
+            "logoFontSize": 15,
+            "logoAlignment": "flex-start"
           }
         },
         "menu": {
           "type": "menuLinks",
-          "settings": {}
+          "settings": {
+            "main_linklist": "main-menu",
+            "navigationAlignment": "center",
+            "navigationDropdownAlignment": "auto"
+          }
         },
         "accounts": {
           "type": "accounts",
-          "settings": {}
+          "settings": {
+            "accountLink": true,
+            "searchBar": true,
+            "show_country": false,
+            "show_language": false,
+            "accountsAlignment": "flex-end"
+          }
         }
       },
       "block_order": [
@@ -25,7 +49,19 @@
         "menu",
         "accounts"
       ],
-      "settings": {}
+      "settings": {
+        "headerPosition": true,
+        "hasBorder": false,
+        "outlinedLinks": false,
+        "openOnHover": false,
+        "hasIcons": false,
+        "accountLinkMob": true,
+        "homeOverlay": false,
+        "bgFill": "transparent",
+        "overlayBgColor": "#FFFFFF",
+        "overlayTextColor": "#000000",
+        "overlayBorderColor": "#000000"
+      }
     }
   },
   "order": [
