@@ -45,6 +45,7 @@
         },
         "socials": {
           "type": "socials",
+          "disabled": true,
           "settings": {
             "enable_follow_on_shop": false,
             "alignment": "center",
@@ -66,6 +67,7 @@
       "blocks": {
         "payments": {
           "type": "payments",
+          "disabled": true,
           "settings": {
             "monochrome": false,
             "alignment": "start",
@@ -74,6 +76,7 @@
         },
         "selectors": {
           "type": "selectors",
+          "disabled": true,
           "settings": {
             "country_name_format": "flag",
             "show_country": true,
