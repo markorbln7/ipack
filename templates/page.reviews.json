@@ -16,9 +16,43 @@
         "pageType": "col-2",
         "showHeading": true
       }
+    },
+    "gs_hero_BRVCEi": {
+      "type": "gs-hero",
+      "blocks": {
+        "image_BHLNF6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5H8A2246-16x9-desktop.jpg",
+            "imageMobile": "shopify://shop_images/5H8A2246-16x9-desktop.jpg",
+            "imgClickable": false
+          }
+        }
+      },
+      "block_order": [
+        "image_BHLNF6"
+      ],
+      "settings": {
+        "heroHeight": "var(--heroHeight-f)",
+        "cropVideo": false,
+        "title": "",
+        "content": "",
+        "cta": "",
+        "url": "",
+        "contentPosition": "center between",
+        "contentDirection": "row",
+        "textAlignment": "left",
+        "contentPositionMob": "center between",
+        "contentDirectionMob": "column",
+        "textAlignmentMob": "center",
+        "heroMetaH1Bg": "#FFFFFF",
+        "heroMetaH1Color": "#000000",
+        "heroMetaH1hasBg": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "gs_hero_BRVCEi"
   ]
 }
