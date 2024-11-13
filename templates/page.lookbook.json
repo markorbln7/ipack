@@ -61,7 +61,7 @@
         "image4"
       ],
       "custom_css": [
-        ".collage h3 {text-transform: capitalize; font-weight: 700; font-size: 20px;}"
+        ".collage .h3 {text-transform: capitalize; font-weight: 700; font-size: 20px;}"
       ],
       "settings": {
         "title": "",
