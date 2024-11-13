@@ -37,8 +37,8 @@
         "contentPositionMob": "center between",
         "contentDirectionMob": "column",
         "textAlignmentMob": "center",
-        "heroMetaH1Bg": "#ffffff",
-        "heroMetaH1Color": "#000000",
+        "heroMetaH1Bg": "#000000",
+        "heroMetaH1Color": "#ffffff",
         "heroMetaH1hasBg": false
       }
     },
