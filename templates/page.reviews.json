@@ -45,7 +45,7 @@
         "contentPositionMob": "center between",
         "contentDirectionMob": "column",
         "textAlignmentMob": "center",
-        "heroMetaH1Bg": "#FFFFFF",
+        "heroMetaH1Bg": "#ffffff",
         "heroMetaH1Color": "#000000",
         "heroMetaH1hasBg": false
       }
@@ -63,7 +63,7 @@
         "background": "rgba(0,0,0,0)",
         "color": "#000000",
         "buttonBg": "#000000",
-        "buttonColor": "#FFFFFF"
+        "buttonColor": "#ffffff"
       }
     },
     "gs_reviews_Ez4Lbh": {
@@ -108,7 +108,7 @@
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
-            "heroBg": "#FFFFFF",
+            "heroBg": "#ffffff",
             "heroHasBg": false
           }
         },
@@ -124,7 +124,7 @@
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
-            "heroBg": "#FFFFFF",
+            "heroBg": "#ffffff",
             "heroHasBg": false
           }
         },
@@ -140,7 +140,7 @@
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
-            "heroBg": "#FFFFFF",
+            "heroBg": "#ffffff",
             "heroHasBg": false
           }
         }
@@ -170,7 +170,7 @@
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
-            "heroBg": "#FFFFFF",
+            "heroBg": "#ffffff",
             "heroHasBg": false
           }
         },
@@ -186,7 +186,7 @@
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
-            "heroBg": "#FFFFFF",
+            "heroBg": "#ffffff",
             "heroHasBg": false
           }
         },
@@ -202,7 +202,7 @@
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
-            "heroBg": "#FFFFFF",
+            "heroBg": "#ffffff",
             "heroHasBg": false
           }
         }
@@ -244,6 +244,51 @@
       ],
       "settings": {}
     },
+    "gs_hero_double_kP9Qwg": {
+      "type": "gs-hero-double",
+      "blocks": {
+        "video_yRLMXV": {
+          "type": "video",
+          "settings": {
+            "videoLoop": false,
+            "videoMute": true,
+            "videoAutoplay": false,
+            "clickToPlay": true,
+            "playPause": false,
+            "title": "",
+            "url": "",
+            "contentPosition": "top left",
+            "heroColor": "#000000",
+            "heroBg": "#FFFFFF",
+            "heroHasBg": false
+          }
+        },
+        "video_xUQt7Q": {
+          "type": "video",
+          "settings": {
+            "videoLoop": false,
+            "videoMute": true,
+            "videoAutoplay": false,
+            "clickToPlay": true,
+            "playPause": false,
+            "title": "",
+            "url": "",
+            "contentPosition": "top left",
+            "heroColor": "#000000",
+            "heroBg": "#FFFFFF",
+            "heroHasBg": false
+          }
+        }
+      },
+      "block_order": [
+        "video_yRLMXV",
+        "video_xUQt7Q"
+      ],
+      "settings": {
+        "perRow": "2",
+        "perRowMob": "1"
+      }
+    }
   },
   "order": [
     "main",
@@ -252,6 +297,7 @@
     "gs_reviews_Ez4Lbh",
     "gs_hero_double_dmGLVr",
     "gs_hero_double_dmGLVr2",
-    "gs_reviews_Ez4Lbh2"
+    "gs_reviews_Ez4Lbh2",
+    "gs_hero_double_kP9Qwg"
   ]
 }
