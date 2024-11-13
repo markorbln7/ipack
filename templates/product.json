@@ -73,7 +73,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Shipping",
-            "checked": true,
+            "checked": false,
             "content": "<p>Shipping Details</p>",
             "page": "",
             "liquid": ""
@@ -83,7 +83,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Returns",
-            "checked": true,
+            "checked": false,
             "content": "<p>Returns Details</p>",
             "page": "",
             "liquid": ""
