@@ -157,11 +157,39 @@
         "heroMetaH1Color": "#000000",
         "heroMetaH1hasBg": false
       }
+    },
+    "gs_hero_double_qpL7zP": {
+      "type": "gs-hero-double",
+      "blocks": {
+        "image_gzRcjN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5H8A0940-9x16-desktop.jpg",
+            "imageMobile": "shopify://shop_images/5H8A0940-9x16-desktop.jpg",
+            "title": "",
+            "block_title": "",
+            "block_text": "",
+            "url": "",
+            "contentPosition": "top left",
+            "heroColor": "#000000",
+            "heroBg": "#FFFFFF",
+            "heroHasBg": false
+          }
+        }
+      },
+      "block_order": [
+        "image_gzRcjN"
+      ],
+      "settings": {
+        "perRow": "3",
+        "perRowMob": "1"
+      }
     }
   },
   "order": [
     "looks",
     "gs_hero_double_HP7gf3",
-    "gs_hero_JhbRtP"
+    "gs_hero_JhbRtP",
+    "gs_hero_double_qpL7zP"
   ]
 }
