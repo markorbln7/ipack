@@ -1,0 +1,102 @@
+{
+  "sections": {
+    "hero": {
+      "type": "gs-hero",
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "image"
+      ],
+      "settings": {}
+    },
+    "products": {
+      "type": "gs-featured-collection",
+      "settings": {}
+    },
+    "blog": {
+      "type": "gs-blog",
+      "settings": {}
+    },
+    "logolist": {
+      "type": "gs-logolist",
+      "blocks": {
+        "logo1": {
+          "type": "logo_image",
+          "settings": {}
+        },
+        "logo2": {
+          "type": "logo_image",
+          "settings": {}
+        },
+        "logo3": {
+          "type": "logo_image",
+          "settings": {}
+        },
+        "logo4": {
+          "type": "logo_image",
+          "settings": {}
+        },
+        "logo5": {
+          "type": "logo_image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "logo1",
+        "logo2",
+        "logo3",
+        "logo4",
+        "logo5"
+      ],
+      "settings": {}
+    },
+    "hero-double": {
+      "type": "gs-hero-double",
+      "blocks": {
+        "banner1": {
+          "type": "image",
+          "settings": {}
+        },
+        "banner2": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "banner1",
+        "banner2"
+      ],
+      "settings": {}
+    },
+    "reviews": {
+      "type": "gs-reviews",
+      "blocks": {
+        "review1": {
+          "type": "text",
+          "settings": {}
+        },
+        "review2": {
+          "type": "text",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "review1",
+        "review2"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "hero",
+    "logolist",
+    "products",
+    "hero-double",
+    "reviews",
+    "blog"
+  ]
+}

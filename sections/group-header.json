@@ -1,0 +1,34 @@
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "header": {
+      "type": "header",
+      "blocks": {
+        "logo": {
+          "type": "logo",
+          "settings": {
+            "logoImage": "{{ shop.brand.logo }}"
+          }
+        },
+        "menu": {
+          "type": "menuLinks",
+          "settings": {}
+        },
+        "accounts": {
+          "type": "accounts",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "logo",
+        "menu",
+        "accounts"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "header"
+  ]
+}

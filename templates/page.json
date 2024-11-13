@@ -1,0 +1,11 @@
+{
+  "sections": {
+    "main": {
+      "type": "t-page",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

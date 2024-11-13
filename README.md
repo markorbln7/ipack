@@ -1,0 +1,1 @@
+shopify theme dev --store=9madai-07.myshopify.com

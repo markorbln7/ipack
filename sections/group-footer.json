@@ -1,0 +1,71 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer-backtop": {
+      "type": "footer-backtop",
+      "settings": {}
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "motto": {
+          "type": "motto",
+          "settings": {}
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {}
+        },
+        "menu": {
+          "type": "menu",
+          "settings": {}
+        },
+        "socials": {
+          "type": "socials",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "motto",
+        "newsletter",
+        "menu",
+        "socials"
+      ],
+      "settings": {}
+    },
+    "sub-footer": {
+      "type": "footer-bottom",
+      "blocks": {
+        "payments": {
+          "type": "payments",
+          "settings": {}
+        },
+        "selectors": {
+          "type": "selectors",
+          "settings": {}
+        },
+        "copyright": {
+          "type": "copyright",
+          "settings": {}
+        },
+        "credits": {
+          "type": "credits",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "payments",
+        "selectors",
+        "copyright",
+        "credits"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "footer-backtop",
+    "footer",
+    "sub-footer"
+  ]
+}
