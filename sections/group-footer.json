@@ -22,7 +22,7 @@
         "motto": {
           "type": "motto",
           "settings": {
-            "motto": "<p>Use this to add additional information about your business, e.g. address, opening hours etc.</p>",
+            "motto": "<p>The iPack Puffy Tote is a sophisticated, versatile bag<br/>designed to blend style with functionality, making it the<br/>perfect companion for every journey.<br/></p>",
             "fullwidth": false
           }
         },
@@ -36,7 +36,7 @@
         "menu": {
           "type": "menu",
           "settings": {
-            "menu": "footer",
+            "menu": "main-menu",
             "alignment": "start",
             "alignmentMobile": "start",
             "multicolumn": true,
