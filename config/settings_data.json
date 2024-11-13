@@ -30,6 +30,7 @@
     "bodyFontFamily": "helvetica_n4",
     "headingsFontFamily": "helvetica_n4",
     "hSize": 100,
+    "siteTitleSEO": "iPack",
     "showBreadcrumbs": true,
     "cardGridCol": "3",
     "cardGridCol-m": "3",
@@ -56,7 +57,8 @@
     "buyButtonBorderHover": "#000000",
     "boxBorderHover": "#000000",
     "newsletterpopupBg": "#FFFFFF",
-    "newsletterpopupColor": "#000000"
+    "newsletterpopupColor": "#000000",
+    "content_for_index": []
   },
   "presets": {
     "Default": {
