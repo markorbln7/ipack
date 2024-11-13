@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero": {
@@ -5,44 +14,86 @@
       "blocks": {
         "image": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/5H8A1011-banner-desktop.jpg",
+            "imageMobile": "shopify://shop_images/5H8A1011-banner-mobile.jpg",
+            "imgClickable": false
+          }
         }
       },
       "block_order": [
         "image"
       ],
-      "settings": {}
+      "settings": {
+        "heroHeight": "var(--heroHeight-f)",
+        "cropVideo": false,
+        "title": "",
+        "content": "",
+        "cta": "",
+        "url": "",
+        "contentPosition": "center between",
+        "contentDirection": "row",
+        "textAlignment": "left",
+        "contentPositionMob": "center between",
+        "contentDirectionMob": "column",
+        "textAlignmentMob": "center",
+        "heroMetaH1Bg": "#FFFFFF",
+        "heroMetaH1Color": "#000000",
+        "heroMetaH1hasBg": false
+      }
     },
-    "products": {
-      "type": "gs-featured-collection",
-      "settings": {}
-    },
-    "blog": {
-      "type": "gs-blog",
-      "settings": {}
+    "gs_hero_text_6rMeBd": {
+      "type": "gs-hero-text",
+      "settings": {
+        "body": "<p>Exclusively available at </p>",
+        "cta": "",
+        "url": "",
+        "size": 26,
+        "sizeMob": 17,
+        "alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "color": "#000000",
+        "buttonBg": "#000000",
+        "buttonColor": "#FFFFFF"
+      }
     },
     "logolist": {
       "type": "gs-logolist",
       "blocks": {
         "logo1": {
           "type": "logo_image",
-          "settings": {}
+          "settings": {
+            "link": "",
+            "newTab": false
+          }
         },
         "logo2": {
           "type": "logo_image",
-          "settings": {}
+          "settings": {
+            "link": "",
+            "newTab": false
+          }
         },
         "logo3": {
           "type": "logo_image",
-          "settings": {}
+          "settings": {
+            "link": "",
+            "newTab": false
+          }
         },
         "logo4": {
           "type": "logo_image",
-          "settings": {}
+          "settings": {
+            "link": "",
+            "newTab": false
+          }
         },
         "logo5": {
           "type": "logo_image",
-          "settings": {}
+          "settings": {
+            "link": "",
+            "newTab": false
+          }
         }
       },
       "block_order": [
@@ -52,50 +103,290 @@
         "logo4",
         "logo5"
       ],
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "headingAlignment": "start",
+        "headingBg": "rgba(0,0,0,0)",
+        "headingColor": "#000000"
+      }
+    },
+    "products": {
+      "type": "gs-featured-collection",
+      "disabled": true,
+      "settings": {
+        "homeCollection": "",
+        "show_heading": true,
+        "howmany": 3,
+        "horizontalScroller": "none"
+      }
     },
     "hero-double": {
       "type": "gs-hero-double",
       "blocks": {
         "banner1": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/5H8A1476-1X1-desktop.jpg",
+            "imageMobile": "shopify://shop_images/5H8A1476-1x1-mobile.jpg",
+            "title": "",
+            "url": "",
+            "contentPosition": "top left",
+            "heroColor": "#000000",
+            "heroBg": "#FFFFFF",
+            "heroHasBg": false
+          }
         },
         "banner2": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/5H8A1449-1x1-desktop.jpg",
+            "imageMobile": "shopify://shop_images/5H8A1449-1x1-mobile.jpg",
+            "title": "",
+            "url": "",
+            "contentPosition": "top left",
+            "heroColor": "#000000",
+            "heroBg": "#FFFFFF",
+            "heroHasBg": false
+          }
         }
       },
       "block_order": [
         "banner1",
         "banner2"
       ],
-      "settings": {}
+      "settings": {
+        "perRow": "2",
+        "perRowMob": "1"
+      }
+    },
+    "gs_hero_double_9z9pCV": {
+      "type": "gs-hero-double",
+      "blocks": {
+        "image_VQ8tWw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5H8A1868-9x16-desktop.jpg",
+            "imageMobile": "shopify://shop_images/5H8A1868-9x16-mobile.jpg",
+            "title": "Perfect for Travel",
+            "url": "",
+            "contentPosition": "top left",
+            "heroColor": "#000000",
+            "heroBg": "#FFFFFF",
+            "heroHasBg": false
+          }
+        },
+        "image_dgBqC7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5H8A2500-9x16-desktop.jpg",
+            "imageMobile": "shopify://shop_images/5H8A2500-9x16-mobile.jpg",
+            "title": "Hear What They Are Saying",
+            "url": "",
+            "contentPosition": "top left",
+            "heroColor": "#000000",
+            "heroBg": "#FFFFFF",
+            "heroHasBg": false
+          }
+        },
+        "image_kxKURd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5H8A1868-9x16-desktop.jpg",
+            "imageMobile": "shopify://shop_images/5H8A1868-9x16-mobile.jpg",
+            "title": "Easy to Clean",
+            "url": "",
+            "contentPosition": "top left",
+            "heroColor": "#000000",
+            "heroBg": "#FFFFFF",
+            "heroHasBg": false
+          }
+        }
+      },
+      "block_order": [
+        "image_VQ8tWw",
+        "image_dgBqC7",
+        "image_kxKURd"
+      ],
+      "custom_css": [
+        ".hero-double .title {text-transform: capitalize; font-weight: 700; font-size: 18px;}"
+      ],
+      "settings": {
+        "perRow": "3",
+        "perRowMob": "1"
+      }
+    },
+    "gs_hero_video_TTetbd": {
+      "type": "gs-hero-video",
+      "settings": {
+        "title": "",
+        "video": "https://www.youtube.com/watch?v=KZOEEwXsurY&t=2s&ab_channel=MangYang",
+        "titleColor": "#000000",
+        "titleBg": "#FFFFFF",
+        "titleHasBg": false
+      }
+    },
+    "gs_logolist_V7LTEF": {
+      "type": "gs-logolist",
+      "blocks": {
+        "logo_image_6NN93z": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/bottom_zip_around_shoe_compartment.png",
+            "link": "",
+            "newTab": false
+          }
+        },
+        "logo_image_CMYrtn": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/padded_shoulder_strap.png",
+            "link": "",
+            "newTab": false
+          }
+        },
+        "logo_image_W4xLhB": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/easy_to_clean.png",
+            "link": "",
+            "newTab": false
+          }
+        },
+        "logo_image_YwkKEK": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/soft_touch_nylon.png",
+            "link": "",
+            "newTab": false
+          }
+        },
+        "logo_image_UTrCRE": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/trolly_sleeve.png",
+            "link": "",
+            "newTab": false
+          }
+        },
+        "logo_image_pEx8gw": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/water_bottle_pocket.png",
+            "link": "",
+            "newTab": false
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_6NN93z",
+        "logo_image_CMYrtn",
+        "logo_image_W4xLhB",
+        "logo_image_YwkKEK",
+        "logo_image_UTrCRE",
+        "logo_image_pEx8gw"
+      ],
+      "settings": {
+        "heading": "",
+        "headingAlignment": "start",
+        "headingBg": "rgba(0,0,0,0)",
+        "headingColor": "#000000"
+      }
+    },
+    "gs_image_text_rK6pzV": {
+      "type": "gs-image-text",
+      "blocks": {
+        "heading_tYMn8W": {
+          "type": "heading",
+          "settings": {
+            "heading": "Find Your Bag"
+          }
+        },
+        "text_tLpi8j": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You can find the iPack Puffy Tote exclusively at Costco! Use Costco’s<br/>warehouse locator to discover the nearest location and experience this<br/>stylish, functional tote in person.<br/></p>"
+          }
+        },
+        "button_F8fVra": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "buttonBg": "#000000",
+            "buttonColor": "#FFFFFF"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tYMn8W",
+        "text_tLpi8j",
+        "button_F8fVra"
+      ],
+      "custom_css": [
+        ".image-text h2 {text-transform: capitalize; font-weight: 700; font-size: 35px;}",
+        ".image-text .meta {padding-left: 60px;}",
+        "@media only screen and (max-width: 600px) {.image-text .meta {padding-left: 2rem; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/cotsco-1x1-mobile.jpg",
+        "alignment": "1",
+        "textAlignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "color": "#000000"
+      }
     },
     "reviews": {
       "type": "gs-reviews",
       "blocks": {
         "review1": {
           "type": "text",
-          "settings": {}
+          "settings": {
+            "name": "Sarah L",
+            "review": "<p>“Perfect for holiday travel—fits everything<br/>I need and more!”<br/></p>"
+          }
         },
         "review2": {
           "type": "text",
-          "settings": {}
+          "settings": {
+            "name": "Rachel L.",
+            "review": "<p>“The luggage sleeve and Roamer compartment<br/>make travel so much easier!”</p>"
+          }
         }
       },
       "block_order": [
         "review1",
         "review2"
       ],
+      "custom_css": [
+        ".reviews p {text-align: left;}"
+      ],
       "settings": {}
+    },
+    "blog": {
+      "type": "gs-blog",
+      "disabled": true,
+      "settings": {
+        "blog": "",
+        "post_limit": 3,
+        "show_image": true,
+        "show_date": true,
+        "show_title": true,
+        "show_excerpt": false
+      }
     }
   },
   "order": [
     "hero",
+    "gs_hero_text_6rMeBd",
     "logolist",
     "products",
     "hero-double",
+    "gs_hero_double_9z9pCV",
+    "gs_hero_video_TTetbd",
+    "gs_logolist_V7LTEF",
+    "gs_image_text_rK6pzV",
     "reviews",
     "blog"
   ]
