@@ -64,7 +64,7 @@
         "accounts"
       ],
       "custom_css": [
-        ".cartCounter {display:none;}"
+        ".cartCounter {display: none;}"
       ],
       "settings": {
         "headerPosition": true,
@@ -72,7 +72,7 @@
         "outlinedLinks": false,
         "openOnHover": false,
         "hasIcons": false,
-        "accountLinkMob": true,
+        "accountLinkMob": false,
         "homeOverlay": false,
         "bgFill": "transparent",
         "overlayBgColor": "#ffffff",
