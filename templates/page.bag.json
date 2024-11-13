@@ -16,6 +16,7 @@
         "pageType": "col-2",
         "showHeading": true
       }
+<<<<<<< HEAD
     },
     "gs_hero_AKKB8W": {
       "type": "gs-hero",
@@ -282,6 +283,8 @@
         "perRow": "3",
         "perRowMob": "1"
       }
+=======
+>>>>>>> 829a66e79addc3555307e4a101e5ac49b814d0a2
     }
   },
   "order": [
