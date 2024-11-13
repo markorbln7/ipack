@@ -1,5 +1,10 @@
 <section class="hero-text" style="--heroTextBg:{{ section.settings.background }}; --heroTextAlign: {{ section.settings.alignment }}; --heroTextButtonBg: {{ section.settings.buttonBg }}; --heroTextButtonColor: {{ section.settings.buttonColor }};--heroTextFontSizeMob:{{ section.settings.sizeMob }}px;" {{ block.shopify_attributes }}>
-	<div class="cta" style="--heroTextFontSize:{{ section.settings.size }}px;--heroTextFontHeight:{{ section.settings.lineHeight }};--heroTextFontColor:{{ section.settings.color }}">{{ section.settings.body }}</div>
+	<div class="cta" style="--heroTextFontSize:{{ section.settings.size }}px;--heroTextFontHeight:{{ section.settings.lineHeight }};--heroTextFontColor:{{ section.settings.color }}">
+    {{ section.settings.body }}
+    {% if section.settings.hero_text_logo != blank  %}
+      <span><img width="100" height="auto" src="{{ section.settings.hero_text_logo | img_url:'master' }}"></span>
+    {% endif %}
+  </div>
 	{%- if section.settings.cta != blank -%}
 	<a href="{{ section.settings.url }}" class="button">{{ section.settings.cta }}</a>
 	{%- endif -%}
@@ -21,6 +26,11 @@
       "id": "body",
       "label": "Heading",
       "default": "<p>Use this section to describe a product or welcome your customers.</p>"
+    },
+    {
+      "type": "image_picker",
+      "id": "hero_text_logo",
+      "label": "Logo"
     },
     {
       "type": "text",

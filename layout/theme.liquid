@@ -33,9 +33,10 @@
 
         if settings.useCustomFont
             render 'global-fonts'
-        endif 
+        endif
 
         echo 'app.css' | asset_url | stylesheet_tag
+        echo 'override.css' | asset_url | stylesheet_tag
     -%}
     {% # theme-check-disable %}
     {%- if settings.css != blank -%}<style id="bUserCSS">{{ settings.css | replace: '<style>' '' | replace: '</style>' '' }}</style>{%- endif -%}
@@ -47,7 +48,7 @@
     <component-loader id="app">
         {%- sections 'group-header' -%}
         <main id="mainContent">
-            {%- render 'global-breadcrumbs' -%}
+            {% comment %} {%- render 'global-breadcrumbs' -%} {% endcomment %}
             {{ content_for_layout }}
         </main>
         {%- liquid
@@ -58,7 +59,7 @@
 
     {% # theme-check-disable %}
     {%- # Cart -%}
-    <script type="application/json" data-ajax-cart-initial-state>{{- cart | json -}}</script>  
+    <script type="application/json" data-ajax-cart-initial-state>{{- cart | json -}}</script>
 
     {%- # Global -%}
     <script src="{{ 'app.js' | asset_url }}"></script>
@@ -78,7 +79,7 @@
         # Loading the Language dialog
         if localization.available_languages.size > 1
             render 'global-localization', type: 'language'
-        endif 
+        endif
 
         # Loading the Country/region dialog
         if localization.available_countries.size > 1
