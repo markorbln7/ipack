@@ -175,10 +175,42 @@
             "heroBg": "#FFFFFF",
             "heroHasBg": false
           }
+        },
+        "image_jeTVWQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5H8A0956-9x16-desktop.jpg",
+            "imageMobile": "shopify://shop_images/5H8A0956-9x16-desktop.jpg",
+            "title": "",
+            "block_title": "",
+            "block_text": "",
+            "url": "",
+            "contentPosition": "top left",
+            "heroColor": "#000000",
+            "heroBg": "#FFFFFF",
+            "heroHasBg": false
+          }
+        },
+        "image_XhHhfK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5H8A1947-9x16-desktop.jpg",
+            "imageMobile": "shopify://shop_images/5H8A1947-9x16-desktop.jpg",
+            "title": "",
+            "block_title": "",
+            "block_text": "",
+            "url": "",
+            "contentPosition": "top left",
+            "heroColor": "#000000",
+            "heroBg": "#FFFFFF",
+            "heroHasBg": false
+          }
         }
       },
       "block_order": [
-        "image_gzRcjN"
+        "image_gzRcjN",
+        "image_jeTVWQ",
+        "image_XhHhfK"
       ],
       "settings": {
         "perRow": "3",
