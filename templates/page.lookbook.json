@@ -124,10 +124,44 @@
         "perRow": "3",
         "perRowMob": "1"
       }
+    },
+    "gs_hero_JhbRtP": {
+      "type": "gs-hero",
+      "blocks": {
+        "image_E3DXhw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5H8A2162-16x9-desktop.jpg",
+            "imageMobile": "shopify://shop_images/5H8A2162-16x9-desktop.jpg",
+            "imgClickable": false
+          }
+        }
+      },
+      "block_order": [
+        "image_E3DXhw"
+      ],
+      "settings": {
+        "heroHeight": "var(--heroHeight-f)",
+        "cropVideo": false,
+        "title": "",
+        "content": "",
+        "cta": "",
+        "url": "",
+        "contentPosition": "center between",
+        "contentDirection": "row",
+        "textAlignment": "left",
+        "contentPositionMob": "center between",
+        "contentDirectionMob": "column",
+        "textAlignmentMob": "center",
+        "heroMetaH1Bg": "#FFFFFF",
+        "heroMetaH1Color": "#000000",
+        "heroMetaH1hasBg": false
+      }
     }
   },
   "order": [
     "looks",
-    "gs_hero_double_HP7gf3"
+    "gs_hero_double_HP7gf3",
+    "gs_hero_JhbRtP"
   ]
 }
