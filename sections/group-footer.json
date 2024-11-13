@@ -1,9 +1,19 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "footer",
   "name": "Footer",
   "sections": {
     "footer-backtop": {
       "type": "footer-backtop",
+      "disabled": true,
       "settings": {}
     },
     "footer": {
@@ -11,19 +21,36 @@
       "blocks": {
         "motto": {
           "type": "motto",
-          "settings": {}
+          "settings": {
+            "motto": "<p>Use this to add additional information about your business, e.g. address, opening hours etc.</p>",
+            "fullwidth": false
+          }
         },
         "newsletter": {
           "type": "newsletter",
-          "settings": {}
+          "settings": {
+            "footerNewsletterTitle": "Get 10% off your next purchase. Subscribe to our newsletter.",
+            "fullwidth": false
+          }
         },
         "menu": {
           "type": "menu",
-          "settings": {}
+          "settings": {
+            "menu": "footer",
+            "alignment": "start",
+            "alignmentMobile": "start",
+            "multicolumn": true,
+            "fullwidth": true
+          }
         },
         "socials": {
           "type": "socials",
-          "settings": {}
+          "settings": {
+            "enable_follow_on_shop": false,
+            "alignment": "center",
+            "alignmentMobile": "start",
+            "fullwidth": true
+          }
         }
       },
       "block_order": [
@@ -39,19 +66,36 @@
       "blocks": {
         "payments": {
           "type": "payments",
-          "settings": {}
+          "settings": {
+            "monochrome": false,
+            "alignment": "start",
+            "fullwidth": false
+          }
         },
         "selectors": {
           "type": "selectors",
-          "settings": {}
+          "settings": {
+            "country_name_format": "flag",
+            "show_country": true,
+            "show_language": true,
+            "alignment": "end",
+            "fullwidth": false
+          }
         },
         "copyright": {
           "type": "copyright",
-          "settings": {}
+          "settings": {
+            "copyright": "",
+            "alignment": "start",
+            "fullwidth": false
+          }
         },
         "credits": {
           "type": "credits",
-          "settings": {}
+          "settings": {
+            "alignment": "end",
+            "fullwidth": false
+          }
         }
       },
       "block_order": [
