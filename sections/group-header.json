@@ -50,8 +50,8 @@
         "accounts": {
           "type": "accounts",
           "settings": {
-            "accountLink": true,
-            "searchBar": true,
+            "accountLink": false,
+            "searchBar": false,
             "show_country": false,
             "show_language": false,
             "accountsAlignment": "flex-end"
