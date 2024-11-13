@@ -65,9 +65,69 @@
         "show_borders": true,
         "horizontalScroller": false
       }
+    },
+    "gs_hero_double_HP7gf3": {
+      "type": "gs-hero-double",
+      "blocks": {
+        "image_8ndDVy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5H8A1093-9x16-desktop.jpg",
+            "imageMobile": "shopify://shop_images/5H8A1093-9x16-desktop.jpg",
+            "title": "",
+            "block_title": "",
+            "block_text": "",
+            "url": "",
+            "contentPosition": "top left",
+            "heroColor": "#000000",
+            "heroBg": "#FFFFFF",
+            "heroHasBg": false
+          }
+        },
+        "image_FnQPQa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5H8A1376-9x16-desktop.jpg",
+            "imageMobile": "shopify://shop_images/5H8A1376-9x16-desktop.jpg",
+            "title": "",
+            "block_title": "",
+            "block_text": "",
+            "url": "",
+            "contentPosition": "top left",
+            "heroColor": "#000000",
+            "heroBg": "#FFFFFF",
+            "heroHasBg": false
+          }
+        },
+        "image_zg3TRG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5H8A0962-9x16-desktop.jpg",
+            "imageMobile": "shopify://shop_images/5H8A0962-9x16-desktop.jpg",
+            "title": "",
+            "block_title": "",
+            "block_text": "",
+            "url": "",
+            "contentPosition": "top left",
+            "heroColor": "#000000",
+            "heroBg": "#FFFFFF",
+            "heroHasBg": false
+          }
+        }
+      },
+      "block_order": [
+        "image_8ndDVy",
+        "image_FnQPQa",
+        "image_zg3TRG"
+      ],
+      "settings": {
+        "perRow": "3",
+        "perRowMob": "1"
+      }
     }
   },
   "order": [
-    "looks"
+    "looks",
+    "gs_hero_double_HP7gf3"
   ]
 }
