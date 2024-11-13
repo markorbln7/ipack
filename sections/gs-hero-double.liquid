@@ -15,7 +15,7 @@
                     assign mediaType = 'video'
             endcase
         -%}
-        <x-cell media-type="{{ mediaType }}" {{ block.shopify_attributes }}>
+        <x-cell class="block-holder" media-type="{{ mediaType }}" {{ block.shopify_attributes }}>
             {% if block.settings.url != blank %}<a href="{{ block.settings.url }}" class="no-style">{% endif %}
 
             {%- if block.settings.title -%}
@@ -45,6 +45,22 @@
                     {{ 'collection-2' | placeholder_svg_tag: 'svg-placeholder' }}
                     {%- endif -%}
                 </picture>
+                {% if  block.settings.imageHover%}
+                    <picture class="hover_image">
+
+                      {%- if imgDesktop != nil or imgMobile != nil -%}
+                      {%- if imgMobile != nil -%}<source srcset="{{ imgMobile | image_url: width: 970 }} 1x, {{ imgMobile | image_url: width: 1280 }} 2x" media="(max-width:777px)">{%- endif -%}
+                      {%- liquid
+                          assign width = 2750
+                          assign widths = '450,550,750,1000,1280,1500,1750,2000,2500,2750'
+                          assign alt = block.settings.title
+                          render 'global-img' img: block.settings.imageHover, alt: alt, width: width, widths: widths, sizes: sizes
+                      -%}
+                      {%- else -%}
+                      {{ 'collection-2' | placeholder_svg_tag: 'svg-placeholder' }}
+                      {%- endif -%}
+                  </picture>
+                {% endif %}
 
             {%- when 'video' -%}
 
@@ -149,11 +165,17 @@
           "info": "9:16 recommended"
         },
         {
+          "type": "image_picker",
+          "id": "imageHover",
+          "label": "Image Hover",
+          "info": "9:16 recommended"
+        },
+        {
             "type": "image_picker",
             "id": "imageMobile",
             "label": "Mobile",
             "info": "9:16 recommended"
-          },
+        },
         {
           "type": "text",
           "id": "title",
