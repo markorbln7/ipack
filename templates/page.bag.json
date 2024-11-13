@@ -11,7 +11,11 @@
   "sections": {
     "main": {
       "type": "t-page",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "pageType": "col-2",
+        "showHeading": true
+      }
     }
   },
   "order": [

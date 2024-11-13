@@ -1,5 +1,63 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-  "current": "Default",
+  "current": {
+    "boxedLayoutWidth": 1200,
+    "globalBorderWidth": 1,
+    "BorderRadiusGlobal": "0",
+    "globalImgRadius": "0",
+    "imgPadding": "--none",
+    "bgColor": "#FFFFFF",
+    "globalBorderColor": "#000000",
+    "color": "#000000",
+    "linkColor": "#000001",
+    "linkHover": "#000000",
+    "colorHeadings": "#000000",
+    "buttonBgColor": "#000000",
+    "buttonColor": "#FFFFFF",
+    "buyButtonBgColor": "#000000",
+    "buyButtonColor": "#FFFFFF",
+    "boxBgColor": "#FFFFFF",
+    "boxColor": "#000000",
+    "boxBorderColor": "#000000",
+    "bodyFontFamily": "helvetica_n4",
+    "headingsFontFamily": "helvetica_n4",
+    "hSize": 100,
+    "showBreadcrumbs": true,
+    "cardGridCol": "3",
+    "cardGridCol-m": "3",
+    "cardGridCol-s": "1",
+    "cardTypeOf": "overlay",
+    "cardRatio": "portrait",
+    "cardImgCrop": "wide",
+    "cardHoverImg": false,
+    "cardImgRadius": false,
+    "cardImgPadding": false,
+    "cardQuickBuy": true,
+    "cardHoverQuickBuy": true,
+    "cardQuickBuyButtonPrice": true,
+    "cardQuickBuySelectPrice": true,
+    "cardBg": "rgba(0,0,0,0)",
+    "cardColor": "#000000",
+    "cardTextBg": "rgba(0,0,0,0)",
+    "globalBorderRadius": 0,
+    "primary": "#000000",
+    "accent": "#000000",
+    "buttonBorderColor": "#000000",
+    "buttonBorderHover": "#000000",
+    "buyButtonBorderColor": "#000000",
+    "buyButtonBorderHover": "#000000",
+    "boxBorderHover": "#000000",
+    "newsletterpopupBg": "#FFFFFF",
+    "newsletterpopupColor": "#000000"
+  },
   "presets": {
     "Default": {
       "boxedLayoutWidth": 1200,
