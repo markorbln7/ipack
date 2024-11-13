@@ -72,9 +72,19 @@
         "collapsible_tab": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible tab",
+            "heading": "Shipping",
             "checked": true,
-            "content": "",
+            "content": "<p>Shipping Details</p>",
+            "page": "",
+            "liquid": ""
+          }
+        },
+        "collapsible_tab_q7XUH8": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Returns",
+            "checked": true,
+            "content": "<p>Returns Details</p>",
             "page": "",
             "liquid": ""
           }
@@ -90,7 +100,8 @@
         "qty_Jg4bit",
         "buy_buttons",
         "share",
-        "collapsible_tab"
+        "collapsible_tab",
+        "collapsible_tab_q7XUH8"
       ],
       "settings": {
         "pinSection": "none",
