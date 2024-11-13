@@ -124,10 +124,54 @@
         "numberOfProds": 3,
         "horizontalScroller": "mob"
       }
+    },
+    "gs_hero_double_4rNWF3": {
+      "type": "gs-hero-double",
+      "blocks": {
+        "image_UeAbJg": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.custom.first_image.value }}",
+            "imageMobile": "{{ product.metafields.custom.first_image.value }}",
+            "title": "",
+            "block_title": "",
+            "block_text": "",
+            "url": "",
+            "contentPosition": "top left",
+            "heroColor": "#000000",
+            "heroBg": "#FFFFFF",
+            "heroHasBg": false
+          }
+        },
+        "image_bDbFmW": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.custom.second_image.value }}",
+            "imageMobile": "{{ product.metafields.custom.second_image.value }}",
+            "title": "",
+            "block_title": "",
+            "block_text": "",
+            "url": "",
+            "contentPosition": "top left",
+            "heroColor": "#000000",
+            "heroBg": "#FFFFFF",
+            "heroHasBg": false
+          }
+        }
+      },
+      "block_order": [
+        "image_UeAbJg",
+        "image_bDbFmW"
+      ],
+      "settings": {
+        "perRow": "2",
+        "perRowMob": "1"
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "gs_hero_double_4rNWF3"
   ]
 }
