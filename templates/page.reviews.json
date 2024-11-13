@@ -88,6 +88,9 @@
         "text_HL3EwF",
         "text_NcgcRR"
       ],
+      "custom_css": [
+        ".reviews p {text-align: left;}"
+      ],
       "settings": {}
     }
   },
