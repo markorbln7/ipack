@@ -157,14 +157,30 @@
             "heroBg": "#FFFFFF",
             "heroHasBg": false
           }
+        },
+        "image_bNgEfe": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.custom.third_image.value }}",
+            "imageMobile": "{{ product.metafields.custom.third_image.value }}",
+            "title": "",
+            "block_title": "",
+            "block_text": "",
+            "url": "",
+            "contentPosition": "top left",
+            "heroColor": "#000000",
+            "heroBg": "#FFFFFF",
+            "heroHasBg": false
+          }
         }
       },
       "block_order": [
         "image_UeAbJg",
-        "image_bDbFmW"
+        "image_bDbFmW",
+        "image_bNgEfe"
       ],
       "settings": {
-        "perRow": "2",
+        "perRow": "3",
         "perRowMob": "1"
       }
     }
