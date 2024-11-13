@@ -104,7 +104,8 @@
         "collapsible_tab_q7XUH8"
       ],
       "custom_css": [
-        ".bullet-product-content h1 {text-transform: capitalize; font-weight:700; font-size:26px;}"
+        ".bullet-product-content h1 {text-transform: capitalize; font-weight: 700; font-size: 26px;}",
+        ".accordion .dropdown-caret {text-transform: capitalize; font-weight: 700;}"
       ],
       "settings": {
         "pinSection": "none",
