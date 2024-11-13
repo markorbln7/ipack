@@ -123,8 +123,76 @@
         "enable_video_looping": false
       }
     },
+    "gs_logolist_iUp4qR": {
+      "type": "gs-logolist",
+      "blocks": {
+        "logo_image_GFYU9w": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/bottom_zip_around_shoe_compartment.png",
+            "link": "",
+            "newTab": false
+          }
+        },
+        "logo_image_CEyxPq": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/padded_shoulder_strap.png",
+            "link": "",
+            "newTab": false
+          }
+        },
+        "logo_image_jkGtY9": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/easy_to_clean.png",
+            "link": "",
+            "newTab": false
+          }
+        },
+        "logo_image_wQC9jK": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/soft_touch_nylon.png",
+            "link": "",
+            "newTab": false
+          }
+        },
+        "logo_image_gWAHnT": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/trolly_sleeve.png",
+            "link": "",
+            "newTab": false
+          }
+        },
+        "logo_image_yDtxXE": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/double_padded_laptop_sleeve.png",
+            "link": "",
+            "newTab": false
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_GFYU9w",
+        "logo_image_CEyxPq",
+        "logo_image_jkGtY9",
+        "logo_image_wQC9jK",
+        "logo_image_gWAHnT",
+        "logo_image_yDtxXE"
+      ],
+      "settings": {
+        "heading": "",
+        "headingAlignment": "start",
+        "headingBg": "rgba(0,0,0,0)",
+        "headingColor": "#000000"
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "numberOfProds": 3,
         "horizontalScroller": "mob"
@@ -192,6 +260,7 @@
   },
   "order": [
     "main",
+    "gs_logolist_iUp4qR",
     "product-recommendations",
     "gs_hero_double_4rNWF3"
   ]
