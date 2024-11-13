@@ -63,6 +63,9 @@
         "menu",
         "accounts"
       ],
+      "custom_css": [
+        ".cartCounter {display:none;}"
+      ],
       "settings": {
         "headerPosition": true,
         "hasBorder": false,
