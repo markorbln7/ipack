@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "wrapper": "div.lookbook-page",
   "sections": {
@@ -7,43 +16,41 @@
         "image1": {
           "type": "text",
           "settings": {
-            "span": "span=\"1\" span-s=row"
+            "span": "span=\"1\" span-s=row",
+            "hideM": true,
+            "heading": "LookBook",
+            "content": "",
+            "align": "text-start"
           }
         },
         "image2": {
           "type": "image",
           "settings": {
-            "span": "span=\"3\" span-s=row"
+            "span": "span=\"3\" span-s=row",
+            "image": "shopify://shop_images/2B4A7607-1X1-desktop.jpg",
+            "imgFullheight": true,
+            "url": "",
+            "openNewWindow": false
           }
         },
         "image3": {
           "type": "image",
           "settings": {
-            "span": "span=\"2\" span-s=row"
+            "span": "span=\"2\" span-s=row",
+            "image": "shopify://shop_images/5H8A1003-1x1-desktop.jpg",
+            "imgFullheight": true,
+            "url": "",
+            "openNewWindow": false
           }
         },
         "image4": {
           "type": "image",
           "settings": {
-            "span": "span=\"2\" span-s=row"
-          }
-        },
-        "image5": {
-          "type": "image",
-          "settings": {
-            "span": "span=\"1\" span-s=row"
-          }
-        },
-        "image6": {
-          "type": "image",
-          "settings": {
-            "span": "span=\"2\" span-s=row"
-          }
-        },
-        "image7": {
-          "type": "image",
-          "settings": {
-            "span": "span=\"1\" span-s=row"
+            "span": "span=\"2\" span-s=row",
+            "image": "shopify://shop_images/5H8A1003-1x1-desktop.jpg",
+            "imgFullheight": true,
+            "url": "",
+            "openNewWindow": false
           }
         }
       },
@@ -51,12 +58,13 @@
         "image1",
         "image2",
         "image3",
-        "image4",
-        "image5",
-        "image6",
-        "image7"
+        "image4"
       ],
-      "settings": {}
+      "settings": {
+        "title": "Collage",
+        "show_borders": true,
+        "horizontalScroller": false
+      }
     }
   },
   "order": [
