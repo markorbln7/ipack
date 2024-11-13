@@ -11,6 +11,20 @@
   "type": "header",
   "name": "Header",
   "sections": {
+    "header_marquee_LR3q6i": {
+      "type": "header-marquee",
+      "settings": {
+        "homeOnly": false,
+        "marqueeMarquee": true,
+        "notice": "$39.99 Exclusivly Available At Costco In Store And Costco.com",
+        "link": "",
+        "marqueeDirection": "false",
+        "marqueeSpeeds": 40,
+        "marqueePause": true,
+        "marqueeBg": "#FFFFFF",
+        "marqueeColor": "#000000"
+      }
+    },
     "header": {
       "type": "header",
       "blocks": {
@@ -58,13 +72,14 @@
         "accountLinkMob": true,
         "homeOverlay": false,
         "bgFill": "transparent",
-        "overlayBgColor": "#FFFFFF",
+        "overlayBgColor": "#ffffff",
         "overlayTextColor": "#000000",
         "overlayBorderColor": "#000000"
       }
     }
   },
   "order": [
+    "header_marquee_LR3q6i",
     "header"
   ]
 }
