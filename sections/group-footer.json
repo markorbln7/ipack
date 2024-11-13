@@ -36,11 +36,11 @@
         "menu": {
           "type": "menu",
           "settings": {
-            "menu": "main-menu",
+            "menu": "footer",
             "alignment": "start",
             "alignmentMobile": "start",
             "multicolumn": true,
-            "fullwidth": true
+            "fullwidth": false
           }
         },
         "socials": {
