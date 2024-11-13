@@ -60,9 +60,12 @@
         "image3",
         "image4"
       ],
+      "custom_css": [
+        ".collage h3 {text-transform: capitalize; font-weight: 700; font-size: 20px;}"
+      ],
       "settings": {
-        "title": "Collage",
-        "show_borders": true,
+        "title": "",
+        "show_borders": false,
         "horizontalScroller": false
       }
     },
