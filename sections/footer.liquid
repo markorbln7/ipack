@@ -42,7 +42,7 @@
                                     endif
                                 -%}
 
-                                <ul class="no-style" x-grid columns="{{ columns }}" style="gap: calc(var(--margin) * 2) var(--padding)">
+                                <ul class="no-style" x-grid columns="2" style="gap: calc(var(--margin) * 2) var(--padding)">
                                     {%- for link in linklists[linklist].links -%}
                                         <li>
                                             <a href="{{ link.url }}" class="no-style">{{ link.title }}</a>
