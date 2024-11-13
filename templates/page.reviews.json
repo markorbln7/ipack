@@ -49,10 +49,52 @@
         "heroMetaH1Color": "#000000",
         "heroMetaH1hasBg": false
       }
+    },
+    "gs_hero_text_GAARbK": {
+      "type": "gs-hero-text",
+      "settings": {
+        "body": "<p>Exclusively available at</p>",
+        "hero_text_logo": "shopify://shop_images/costco-logo-black-and-white.png",
+        "cta": "",
+        "url": "",
+        "size": 26,
+        "sizeMob": 17,
+        "alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "color": "#000000",
+        "buttonBg": "#000000",
+        "buttonColor": "#FFFFFF"
+      }
+    },
+    "gs_reviews_Ez4Lbh": {
+      "type": "gs-reviews",
+      "blocks": {
+        "text_HL3EwF": {
+          "type": "text",
+          "settings": {
+            "name": "Sarah L.",
+            "review": "<p>“Perfect for holiday travel—fits everything<br/>I need and more!”<br/></p>"
+          }
+        },
+        "text_NcgcRR": {
+          "type": "text",
+          "settings": {
+            "name": "Rachel L.",
+            "review": "<p>“The luggage sleeve and Roamer compartment<br/>make travel so much easier!”<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_HL3EwF",
+        "text_NcgcRR"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "main",
-    "gs_hero_BRVCEi"
+    "gs_hero_BRVCEi",
+    "gs_hero_text_GAARbK",
+    "gs_reviews_Ez4Lbh"
   ]
 }
