@@ -92,12 +92,75 @@
         ".reviews p {text-align: left;}"
       ],
       "settings": {}
+    },
+    "gs_hero_double_dmGLVr": {
+      "type": "gs-hero-double",
+      "blocks": {
+        "video_9gagc8": {
+          "type": "video",
+          "settings": {
+            "videoLoop": false,
+            "videoMute": true,
+            "videoAutoplay": false,
+            "clickToPlay": true,
+            "playPause": false,
+            "title": "Your hero video heading",
+            "url": "",
+            "contentPosition": "top left",
+            "heroColor": "#000000",
+            "heroBg": "#FFFFFF",
+            "heroHasBg": false
+          }
+        },
+        "video_wcAk3t": {
+          "type": "video",
+          "settings": {
+            "videoLoop": false,
+            "videoMute": true,
+            "videoAutoplay": false,
+            "clickToPlay": true,
+            "playPause": false,
+            "title": "Your hero video heading",
+            "url": "",
+            "contentPosition": "top left",
+            "heroColor": "#000000",
+            "heroBg": "#FFFFFF",
+            "heroHasBg": false
+          }
+        },
+        "video_xBeCqW": {
+          "type": "video",
+          "settings": {
+            "videoLoop": false,
+            "videoMute": true,
+            "videoAutoplay": false,
+            "clickToPlay": true,
+            "playPause": false,
+            "title": "Your hero video heading",
+            "url": "",
+            "contentPosition": "top left",
+            "heroColor": "#000000",
+            "heroBg": "#FFFFFF",
+            "heroHasBg": false
+          }
+        }
+      },
+      "block_order": [
+        "video_9gagc8",
+        "video_wcAk3t",
+        "video_xBeCqW"
+      ],
+      "settings": {
+        "perRow": "3",
+        "perRowMob": "1"
+      }
     }
   },
   "order": [
     "main",
     "gs_hero_BRVCEi",
     "gs_hero_text_GAARbK",
-    "gs_reviews_Ez4Lbh"
+    "gs_reviews_Ez4Lbh",
+    "gs_hero_double_dmGLVr"
   ]
 }
