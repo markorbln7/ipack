@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "sections": {
     "main": {
       "type": "t-page",
@@ -25,7 +25,7 @@
           "settings": {
             "image": "shopify://shop_images/2B4A7471-16x9-desktop.jpg",
             "imageMobile": "shopify://shop_images/2B4A7471-16x9-mobile.jpg",
-            "imgClickable": false
+            "imgClickable": true
           }
         }
       },
@@ -38,7 +38,7 @@
         "title": "",
         "content": "",
         "cta": "",
-        "url": "",
+        "url": "https://9madai-07.myshopify.com/products/ipack-puffy-tote",
         "contentPosition": "center between",
         "contentDirection": "row",
         "textAlignment": "left",
@@ -176,7 +176,7 @@
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
-            "heroBg": "#FFFFFF",
+            "heroBg": "#ffffff",
             "heroHasBg": false
           }
         },
@@ -191,7 +191,7 @@
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
-            "heroBg": "#FFFFFF",
+            "heroBg": "#ffffff",
             "heroHasBg": false
           }
         },
@@ -206,7 +206,7 @@
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
-            "heroBg": "#FFFFFF",
+            "heroBg": "#ffffff",
             "heroHasBg": false
           }
         }
@@ -238,7 +238,7 @@
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
-            "heroBg": "#FFFFFF",
+            "heroBg": "#ffffff",
             "heroHasBg": false
           }
         },
@@ -253,7 +253,7 @@
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
-            "heroBg": "#FFFFFF",
+            "heroBg": "#ffffff",
             "heroHasBg": false
           }
         },
@@ -268,7 +268,7 @@
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
-            "heroBg": "#FFFFFF",
+            "heroBg": "#ffffff",
             "heroHasBg": false
           }
         }
