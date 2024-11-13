@@ -154,13 +154,104 @@
         "perRow": "3",
         "perRowMob": "1"
       }
-    }
+    },
+    "gs_hero_double_dmGLVr2": {
+      "type": "gs-hero-double",
+      "blocks": {
+        "video_9gagc8": {
+          "type": "video",
+          "settings": {
+            "videoLoop": false,
+            "videoMute": true,
+            "videoAutoplay": false,
+            "clickToPlay": true,
+            "playPause": false,
+            "title": "",
+            "url": "",
+            "contentPosition": "top left",
+            "heroColor": "#000000",
+            "heroBg": "#FFFFFF",
+            "heroHasBg": false
+          }
+        },
+        "video_wcAk3t": {
+          "type": "video",
+          "settings": {
+            "videoLoop": false,
+            "videoMute": true,
+            "videoAutoplay": false,
+            "clickToPlay": true,
+            "playPause": false,
+            "title": "",
+            "url": "",
+            "contentPosition": "top left",
+            "heroColor": "#000000",
+            "heroBg": "#FFFFFF",
+            "heroHasBg": false
+          }
+        },
+        "video_xBeCqW": {
+          "type": "video",
+          "settings": {
+            "videoLoop": false,
+            "videoMute": true,
+            "videoAutoplay": false,
+            "clickToPlay": true,
+            "playPause": false,
+            "title": "",
+            "url": "",
+            "contentPosition": "top left",
+            "heroColor": "#000000",
+            "heroBg": "#FFFFFF",
+            "heroHasBg": false
+          }
+        }
+      },
+      "block_order": [
+        "video_9gagc8",
+        "video_wcAk3t",
+        "video_xBeCqW"
+      ],
+      "settings": {
+        "perRow": "3",
+        "perRowMob": "1"
+      }
+    },
+    "gs_reviews_Ez4Lbh2": {
+      "type": "gs-reviews",
+      "blocks": {
+        "text_HL3EwF": {
+          "type": "text",
+          "settings": {
+            "name": "Sarah L.",
+            "review": "<p>“Perfect for holiday travel—fits everything<br/>I need and more!”<br/></p>"
+          }
+        },
+        "text_NcgcRR": {
+          "type": "text",
+          "settings": {
+            "name": "Rachel L.",
+            "review": "<p>“The luggage sleeve and Roamer compartment<br/>make travel so much easier!”<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_HL3EwF",
+        "text_NcgcRR"
+      ],
+      "custom_css": [
+        ".reviews p {text-align: left;}"
+      ],
+      "settings": {}
+    },
   },
   "order": [
     "main",
     "gs_hero_BRVCEi",
     "gs_hero_text_GAARbK",
     "gs_reviews_Ez4Lbh",
-    "gs_hero_double_dmGLVr"
+    "gs_hero_double_dmGLVr",
+    "gs_hero_double_dmGLVr2",
+    "gs_reviews_Ez4Lbh2"
   ]
 }
