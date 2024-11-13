@@ -1,7 +1,7 @@
 {%- liquid
     assign id_append = ''
     if featured_product
-    	assign sectionId = section.id | remove: '-' | remove: '_' 
+    	assign sectionId = section.id | remove: '-' | remove: '_'
         assign id_append = sectionId
     endif
 -%}
@@ -87,7 +87,7 @@
 {%- when 'trustbadge' -%}
 	{%- if block.settings.image != empty -%}
 	<section class="trustbadge" {{ block.shopify_attributes }}>
-		{%- liquid 
+		{%- liquid
 			assign img = block.settings.image
 			if img != nil
 				echo "<picture>"
@@ -95,7 +95,7 @@
             	echo "</picture>"
         	else
             	echo 'lifestyle-2' | placeholder_svg_tag: 'svg-placeholder'
-        	endif 
+        	endif
         -%}
 	</section>
 	{%- endif -%}
@@ -131,7 +131,7 @@
 	</section>
 
 {%- when 'sku' -%}
-    <section 
+    <section
     	class="product__sku no-js-hidden {% if product.selected_or_first_available_variant.sku.size == 0 %} visually-hidden{% endif %}"
     	id="Sku-{{ section.id }}"
     	role="status"
@@ -156,18 +156,18 @@
 
             {%- if cart.taxes_included or cart.duties_included or shop.shipping_policy.body != blank -%}
                 <small x-flex class="productTax" style="gap:var(--margin)">
-                    {%- liquid 
+                    {%- liquid
                         if cart.duties_included and cart.taxes_included
                             echo 'product.duties_and_taxes_included' | t | prepend: '<x-cell>' | append: '</x-cell>'
-                        elsif cart.taxes_included 
+                        elsif cart.taxes_included
                             echo 'product.taxes_included' | t | prepend: '<x-cell>' | append: '</x-cell>'
                         elsif cart.duties_included
                             echo 'product.duties_included' | t | prepend: '<x-cell>' | append: '</x-cell>'
-                        endif 
+                        endif
 
                         if shop.shipping_policy.body != blank
                             echo 'product.shipping_policy_html' | t: link: shop.shipping_policy.url | prepend: '<x-cell>' | append: '</x-cell>'
-                        endif 
+                        endif
                     -%}
                 </small>
             {%- endif -%}
@@ -211,7 +211,7 @@
 				</a>
 			</div>
 
-			<script>document.addEventListener("DOMContentLoaded", () => { inViewport('[data-inviewport]', element => { if (!element.isIntersecting) { document.querySelector('#add2cart-cta').classList.add('active') } else { document.querySelector('#add2cart-cta').classList.remove('active') } }) }); 
+			<script>document.addEventListener("DOMContentLoaded", () => { inViewport('[data-inviewport]', element => { if (!element.isIntersecting) { document.querySelector('#add2cart-cta').classList.add('active') } else { document.querySelector('#add2cart-cta').classList.remove('active') } }) });
 			</script>
 		{%- endif -%}
 	{%- endunless -%}
@@ -229,8 +229,8 @@
 			endif
 		-%}
 
-		<product-form 
-            class="product-form" 
+		<product-form
+            class="product-form"
             data-inviewport
             data-hide-errors="{{ gift_card_recipient_feature_active }}"
             data-section-id="{{ section.id }}"
@@ -242,9 +242,9 @@
             <ajax-cart-product-form>
             {%- endif -%}
 
-			{%- form 'product', 
-                product, 
-                id: product_form_id, 
+			{%- form 'product',
+                product,
+                id: product_form_id,
                 class: 'form',
                 novalidate: 'novalidate'
             -%}
@@ -261,7 +261,7 @@
                 {% endif %}
             >
 
-			{%- liquid 
+			{%- liquid
 				if gift_card_recipient_feature_active
 					render 'product-giftcard-form', product: product, form: form, section: section
 				endif
@@ -277,31 +277,43 @@
                       assign quantity_rule_soldout = true
                     endif
                 -%}
+					{% if product.metafields.custom.costco_url != blank %}
+						<a
+							href="{{ product.metafields.custom.costco_url }}"
+							class="button cartButton is-primary"
+							style="width: 100%"
+						>
+							<span class="cta">
+								Buy Now
+							</span>
+						</a>
+					{% else %}
+						<button
+							id="ProductSubmitButton-{{ section.id }}"
+							type="submit"
+							name="add"
+							class="cartButton {% if show_dynamic_checkout %}is-outline is-currentcolor{% else %}is-primary{% endif %}"
+							{% if product.selected_or_first_available_variant.available == false
+								or quantity_rule_soldout
+								or product.selected_or_first_available_variant == null
+							  %}disabled{% endif %}
+						>
+							<span class="cta">
+								{%- liquid
+									if product.selected_or_first_available_variant == null
+										echo 'product.unavailable' | t
+									elsif  product.selected_or_first_available_variant.available == false or quantity_rule_soldout
+										echo 'product.soldOut' | t
+									else
+										echo purchaseButtonText
+									endif
+								-%}
+							</span>
 
-				<button
-                    id="ProductSubmitButton-{{ section.id }}"
-					type="submit"
-					name="add" 
-					class="cartButton {% if show_dynamic_checkout %}is-outline is-currentcolor{% else %}is-primary{% endif %}"
-                    {% if product.selected_or_first_available_variant.available == false
-                        or quantity_rule_soldout
-                        or product.selected_or_first_available_variant == null
-                      %}disabled{% endif %}
-				>
-					<span class="cta">
-						{%- liquid 
-                            if product.selected_or_first_available_variant == null
-                                echo 'product.unavailable' | t
-							elsif  product.selected_or_first_available_variant.available == false or quantity_rule_soldout
-	                        	echo 'product.soldOut' | t
-	                    	else
-                                echo purchaseButtonText
-							endif 
-	                    -%}
-					</span>
+							<span x-grid columns="1" pi="center" class="loading__spinner hidden">{{ 'product.addingToCart' | t }}</span>
+						</button>
+					{% endif %}
 
-                    <span x-grid columns="1" pi="center" class="loading__spinner hidden">{{ 'product.addingToCart' | t }}</span>
-				</button>
 
 				{%- liquid
 					if show_dynamic_checkout
@@ -375,9 +387,9 @@
 
 {%- when 'inventory' -%}
     <section class="inventory" {{ block.shopify_attributes }}>
-        <inventory-status 
+        <inventory-status
         	id="Inventory-{{ section.id }}"
-        	class="no-js-hidden {% if product.selected_or_first_available_variant.inventory_management != 'shopify' %} visibility-hidden{% endif %}" 
+        	class="no-js-hidden {% if product.selected_or_first_available_variant.inventory_management != 'shopify' %} visibility-hidden{% endif %}"
         	style="--inventoryStatusAlign:{{ block.settings.alignment }}"
         	role="status"
         >
@@ -392,7 +404,7 @@
 		                    	echo '<x-cell class="txt">'
 			                    if block.settings.show_inventory_quantity
 			                    	echo 'product.inventory_low_stock_show_count' | t: quantity: product.selected_or_first_available_variant.inventory_quantity
-			                    else 
+			                    else
 			                    	echo 'product.inventory_low_stock' | t
 			                    endif
 			                	echo '</x-cell>'
@@ -430,13 +442,13 @@
 	                    echo '</x-flex>'
 
 	                endif
-	            endif 
+	            endif
         	-%}
         </inventory-status>
     </section>
 
 {%- when 'complementary' -%}
-	<product-recommendations class="product complementary-products" 
+	<product-recommendations class="product complementary-products"
         data-url="{{ routes.product_recommendations_url }}?limit={{ block.settings.product_list_limit }}&intent=complementary"
         data-section-id="{{ section.id }}"
         data-product-id="{{ product.id }}"
@@ -463,7 +475,7 @@
 		            card-img-radius="{{ settings.cardImgRadius }}"
 		            card-img-padding="{{ settings.cardImgPadding }}"
 		        >
-		        {%- liquid 
+		        {%- liquid
 		            for product in recommendations.products
 		                render 'global-product-card' for product as product
 		            endfor
