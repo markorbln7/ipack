@@ -14,22 +14,35 @@
       "blocks": {
         "image": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/5H8A1011-banner-desktop.jpg",
             "imageMobile": "shopify://shop_images/5H8A1011-banner-mobile.jpg",
             "imgClickable": false
           }
+        },
+        "video_aM8yQM": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/iPack Video 1 (White Bag) 16x92.mov",
+            "videoLoop": false,
+            "videoMute": true,
+            "videoAutoplay": true,
+            "clickToPlay": true,
+            "playPause": true
+          }
         }
       },
       "block_order": [
-        "image"
+        "image",
+        "video_aM8yQM"
       ],
       "settings": {
         "heroHeight": "var(--heroHeight-f)",
         "cropVideo": false,
         "title": "Sample headline",
         "content": "Sample Subhead",
-        "cta": "Shop Now",
+        "cta": "Get Yours Now",
         "url": "https://costco.com",
         "contentPosition": "center between",
         "contentDirection": "row",
@@ -37,7 +50,7 @@
         "contentPositionMob": "center between",
         "contentDirectionMob": "column",
         "textAlignmentMob": "center",
-        "heroMetaH1Bg": "#000000",
+        "heroMetaH1Bg": "#ffffff",
         "heroMetaH1Color": "#000000",
         "heroMetaH1hasBg": false
       }
@@ -257,7 +270,7 @@
         "contentPositionMob": "center between",
         "contentDirectionMob": "column",
         "textAlignmentMob": "center",
-        "heroMetaH1Bg": "#FFFFFF",
+        "heroMetaH1Bg": "#ffffff",
         "heroMetaH1Color": "#000000",
         "heroMetaH1hasBg": false
       }
