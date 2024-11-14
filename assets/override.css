@@ -88,7 +88,8 @@
     cursor: pointer;
 }
 .hero-double img {
-    object-fit: cover;
+    object-fit: contain;
+    height: 100%;
 }
 .hero-double picture {
     height: 100%;
