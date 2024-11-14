@@ -113,6 +113,9 @@
         "banner1",
         "banner2"
       ],
+      "custom_css": [
+        ".hero-double .title {text-transform: capitalize; font-weight: 700; font-size: 18px;}"
+      ],
       "settings": {
         "perRow": "2",
         "perRowMob": "1"
