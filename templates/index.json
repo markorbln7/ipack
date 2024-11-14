@@ -191,8 +191,8 @@
         "image_6qcirF": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/5H8A1003-1x1-desktop.jpg",
-            "imageMobile": "shopify://shop_images/5H8A1003-1x1-desktop.jpg",
+            "image": "shopify://shop_images/banner.jpg",
+            "imageMobile": "shopify://shop_images/5H8A1011.jpg",
             "imgClickable": false
           }
         }
