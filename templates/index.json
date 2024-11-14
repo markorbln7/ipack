@@ -345,21 +345,29 @@
         "review1": {
           "type": "text",
           "settings": {
-            "name": "Sarah L",
-            "review": "<p>“Perfect for holiday travel—fits everything<br/>I need and more!”<br/></p>"
+            "name": "Amanda R.",
+            "review": "<p><strong>The luggage sleeve is so handy! It slides perfectly over my suitcase handle, which makes navigating the airport so much easier</strong></p>"
           }
         },
         "review2": {
           "type": "text",
           "settings": {
-            "name": "Rachel L.",
-            "review": "<p>“The luggage sleeve and Roamer compartment<br/>make travel so much easier!”</p>"
+            "name": "Michael S.",
+            "review": "<p><strong>The two drink sleeves are a lifesaver! I usually carry a coffee and a water bottle, and now they both have a spot without taking up extra space in my bag.</strong></p>"
+          }
+        },
+        "text_WtFgEC": {
+          "type": "text",
+          "settings": {
+            "name": "Reviewer name",
+            "review": "<p><strong>The luggage sleeve is so handy! It slides perfectly over my suitcase handle, which makes navigating the airport so much easier</strong></p>"
           }
         }
       },
       "block_order": [
         "review1",
-        "review2"
+        "review2",
+        "text_WtFgEC"
       ],
       "custom_css": [
         ".reviews p {text-align: left;}"
