@@ -383,6 +383,13 @@
             "name": "Nina B.",
             "review": "<p><strong>Finally, a shoulder strap that’s comfortable even when the bag is full. I carry a lot, and this strap doesn’t dig into my shoulder</strong></p>"
           }
+        },
+        "text_hN8LmD": {
+          "type": "text",
+          "settings": {
+            "name": "Alex G.",
+            "review": "<p><strong>Having a passport pocket is amazing for travel. It’s in the perfect spot for quick access, and I don’t have to fumble through my bag at customs.</strong></p>"
+          }
         }
       },
       "block_order": [
@@ -391,7 +398,8 @@
         "text_WtFgEC",
         "text_VRQbVw",
         "text_E4EwWr",
-        "text_gBKPtJ"
+        "text_gBKPtJ",
+        "text_hN8LmD"
       ],
       "custom_css": [
         ".reviews p {text-align: left;}"
