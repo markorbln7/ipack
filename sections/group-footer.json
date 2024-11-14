@@ -95,6 +95,7 @@
         },
         "credits": {
           "type": "credits",
+          "disabled": true,
           "settings": {
             "alignment": "end",
             "fullwidth": false
