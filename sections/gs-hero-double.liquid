@@ -4,7 +4,7 @@
     assign vw_s = 100 | divided_by: section.settings.perRowMob | append: 'vw'
 -%}
 
-<section class="hero-double blox-{{ section.blocks.size }}">
+<section class="{{section.settings.custom_class}} hero-double blox-{{ section.blocks.size }}">
     <x-grid columns="{{ section.settings.perRow }}" columns-s="{{ section.settings.perRowMob }}">
         {%- for block in section.blocks -%}
         {%- liquid
@@ -137,6 +137,12 @@
     }
   ],
   "settings": [
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom Class",
+      "default": "hp-hero-double"
+    },
     {
       "type": "select",
       "id": "perRow",

@@ -88,15 +88,15 @@
     height: 100%;
     cursor: pointer;
 }
-.hero-double img {
-    object-fit: cover;
+.hp-hero-double img {
+    object-fit: contain;
     height: 100%;
 }
-.hero-double picture {
+.hp-hero-double picture {
     height: 100%;
     background: white;
 }
-.hero-double video {
+.hp-hero-double video {
     width: 100%;
     height: 100%;
     object-fit: cover;
