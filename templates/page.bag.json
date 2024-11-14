@@ -221,6 +221,7 @@
         "image_riV9X3"
       ],
       "settings": {
+        "custom_class": "",
         "perRow": "3",
         "perRowMob": "1"
       }
@@ -280,6 +281,7 @@
         "image_Mr3Fcc"
       ],
       "settings": {
+        "custom_class": "",
         "perRow": "3",
         "perRowMob": "1"
       }
