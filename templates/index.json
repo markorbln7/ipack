@@ -139,21 +139,6 @@
             "heroHasBg": false
           }
         },
-        "image_dgBqC7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/5H8A2500-9x16-desktop.jpg",
-            "imageMobile": "shopify://shop_images/5H8A2500-9x16-mobile.jpg",
-            "title": "Extra Space for Essentials",
-            "block_title": "",
-            "block_text": "",
-            "url": "",
-            "contentPosition": "top left",
-            "heroColor": "#000000",
-            "heroBg": "#ffffff",
-            "heroHasBg": false
-          }
-        },
         "image_kxKURd": {
           "type": "image",
           "settings": {
@@ -168,12 +153,27 @@
             "heroBg": "#ffffff",
             "heroHasBg": false
           }
+        },
+        "image_dgBqC7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5H8A2500-9x16-desktop.jpg",
+            "imageMobile": "shopify://shop_images/5H8A2500-9x16-mobile.jpg",
+            "title": "Easy to Clean",
+            "block_title": "",
+            "block_text": "",
+            "url": "",
+            "contentPosition": "top left",
+            "heroColor": "#000000",
+            "heroBg": "#ffffff",
+            "heroHasBg": false
+          }
         }
       },
       "block_order": [
         "image_VQ8tWw",
-        "image_dgBqC7",
-        "image_kxKURd"
+        "image_kxKURd",
+        "image_dgBqC7"
       ],
       "custom_css": [
         ".hero-double .title {text-transform: capitalize; font-weight: 700; font-size: 18px;}"
