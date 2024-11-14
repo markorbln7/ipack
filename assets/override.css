@@ -123,3 +123,6 @@
       transform: translateX(-100%);
     }
 }
+a.no-style:hover {
+    text-decoration: none;
+}
