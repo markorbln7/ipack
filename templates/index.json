@@ -71,70 +71,6 @@
         "buttonColor": "#ffffff"
       }
     },
-    "logolist": {
-      "type": "gs-logolist",
-      "blocks": {
-        "logo1": {
-          "type": "logo_image",
-          "settings": {
-            "link": "",
-            "newTab": false
-          }
-        },
-        "logo2": {
-          "type": "logo_image",
-          "settings": {
-            "link": "",
-            "newTab": false
-          }
-        },
-        "logo3": {
-          "type": "logo_image",
-          "settings": {
-            "link": "",
-            "newTab": false
-          }
-        },
-        "logo4": {
-          "type": "logo_image",
-          "settings": {
-            "link": "",
-            "newTab": false
-          }
-        },
-        "logo5": {
-          "type": "logo_image",
-          "settings": {
-            "link": "",
-            "newTab": false
-          }
-        }
-      },
-      "block_order": [
-        "logo1",
-        "logo2",
-        "logo3",
-        "logo4",
-        "logo5"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "headingAlignment": "start",
-        "headingBg": "rgba(0,0,0,0)",
-        "headingColor": "#000000"
-      }
-    },
-    "products": {
-      "type": "gs-featured-collection",
-      "disabled": true,
-      "settings": {
-        "homeCollection": "",
-        "show_heading": true,
-        "howmany": 3,
-        "horizontalScroller": "none"
-      }
-    },
     "hero-double": {
       "type": "gs-hero-double",
       "blocks": {
@@ -439,8 +375,6 @@
   "order": [
     "hero",
     "gs_hero_text_6rMeBd",
-    "logolist",
-    "products",
     "hero-double",
     "gs_hero_double_9z9pCV",
     "gs_hero_ndrWCB",
