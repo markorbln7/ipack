@@ -362,12 +362,28 @@
             "name": "Jess T.",
             "review": "<p><strong>The padded laptop pocket is exactly what I needed for work. My laptop stays safe, and I love knowing it’s secure in its own spot.</strong></p>"
           }
+        },
+        "text_VRQbVw": {
+          "type": "text",
+          "settings": {
+            "name": "Laura K.",
+            "review": "<p><strong>The bottom zip-around compartment is such a smart feature. I keep my gym shoes down there, separate from everything else—super convenient</strong></p>"
+          }
+        },
+        "text_E4EwWr": {
+          "type": "text",
+          "settings": {
+            "name": "Tommy P.",
+            "review": "<p><strong>The nylon feels so nice but is also easy to clean. I spilled coffee on it, and it wiped right off with no stain!</strong></p>"
+          }
         }
       },
       "block_order": [
         "review1",
         "review2",
-        "text_WtFgEC"
+        "text_WtFgEC",
+        "text_VRQbVw",
+        "text_E4EwWr"
       ],
       "custom_css": [
         ".reviews p {text-align: left;}"
