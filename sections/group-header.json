@@ -19,9 +19,9 @@
         "notice": "$39.99 Exclusivly Available At Costco In Store And Costco.com",
         "link": "",
         "marqueeDirection": "false",
-        "marqueeSpeeds": 40,
+        "marqueeSpeeds": 70,
         "marqueePause": true,
-        "marqueeBg": "#FFFFFF",
+        "marqueeBg": "#ffffff",
         "marqueeColor": "#000000"
       }
     },
