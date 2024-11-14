@@ -81,7 +81,7 @@
             "imageHover": "shopify://shop_images/2B4A0578-1x1-desktop_0a6d6866-091b-4c0d-88ad-6fec350f38dc.jpg",
             "videoHover": "shopify://files/videos/Gen-3%20Alpha%20Turbo%20494989426%2C%205H8A1476jpg%2C%20M%205.mp4",
             "imageMobile": "shopify://shop_images/5H8A1476-1x1-mobile.jpg",
-            "title": "",
+            "title": "iPack Puffy Tote in Ivor",
             "block_title": "",
             "block_text": "",
             "url": "shopify://pages/puffy-tote-bag",
@@ -98,7 +98,7 @@
             "video": "shopify://files/videos/Gen-3%20Alpha%20Turbo%204185995824%2C%205H8A1449jpg%2C%20M%205.mp4",
             "imageHover": "shopify://shop_images/2B4A0614-1X1-desktop_56370d29-0e59-4565-905a-272de53b06fb.jpg",
             "imageMobile": "shopify://shop_images/5H8A1449-1x1-mobile.jpg",
-            "title": "",
+            "title": "iPack Puffy Tote in Black",
             "block_title": "",
             "block_text": "",
             "url": "",
@@ -113,6 +113,9 @@
         "banner1",
         "banner2"
       ],
+      "custom_css": [
+        ".hero-double .title {text-transform: capitalize; font-weight: 700; font-size: 18px;}"
+      ],
       "settings": {
         "perRow": "2",
         "perRowMob": "1"
@@ -125,8 +128,24 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/5H8A1868-9x16-desktop.jpg",
+            "videoHover": "shopify://files/videos/Gen-3%20Alpha%20Turbo%20477183985%2C%20Camera%20tilts%20down%20an%2C%205H8A1868jpg%20(1)%2C%20M%205 (1).mp4",
             "imageMobile": "shopify://shop_images/5H8A1868-9x16-mobile.jpg",
             "title": "Perfect for Travel",
+            "block_title": "",
+            "block_text": "",
+            "url": "",
+            "contentPosition": "top left",
+            "heroColor": "#000000",
+            "heroBg": "#ffffff",
+            "heroHasBg": false
+          }
+        },
+        "image_kxKURd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5H8A2034_1.jpg",
+            "imageMobile": "shopify://shop_images/5H8A1868-9x16-mobile.jpg",
+            "title": "Extra Space for Essentials",
             "block_title": "",
             "block_text": "",
             "url": "",
@@ -140,22 +159,8 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/5H8A2500-9x16-desktop.jpg",
+            "videoHover": "shopify://files/videos/Gen-3%20Alpha%20Turbo%20734826036%2C%20Static%20shot%2C%20slow%20mo%2C%205H8A2500jpg%2C%20M%205.mp4",
             "imageMobile": "shopify://shop_images/5H8A2500-9x16-mobile.jpg",
-            "title": "Hear What They Are Saying",
-            "block_title": "",
-            "block_text": "",
-            "url": "",
-            "contentPosition": "top left",
-            "heroColor": "#000000",
-            "heroBg": "#ffffff",
-            "heroHasBg": false
-          }
-        },
-        "image_kxKURd": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/5H8A1868-9x16-desktop.jpg",
-            "imageMobile": "shopify://shop_images/5H8A1868-9x16-mobile.jpg",
             "title": "Easy to Clean",
             "block_title": "",
             "block_text": "",
@@ -169,8 +174,8 @@
       },
       "block_order": [
         "image_VQ8tWw",
-        "image_dgBqC7",
-        "image_kxKURd"
+        "image_kxKURd",
+        "image_dgBqC7"
       ],
       "custom_css": [
         ".hero-double .title {text-transform: capitalize; font-weight: 700; font-size: 18px;}"
