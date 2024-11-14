@@ -27,8 +27,8 @@
       "settings": {
         "heroHeight": "var(--heroHeight-f)",
         "cropVideo": false,
-        "title": "",
-        "content": "",
+        "title": "Sample headline",
+        "content": "Sample Subhead",
         "cta": "Shop Now",
         "url": "https://costco.com",
         "contentPosition": "center between",
@@ -38,7 +38,7 @@
         "contentDirectionMob": "column",
         "textAlignmentMob": "center",
         "heroMetaH1Bg": "#000000",
-        "heroMetaH1Color": "#ffffff",
+        "heroMetaH1Color": "#000000",
         "heroMetaH1hasBg": false
       }
     },
