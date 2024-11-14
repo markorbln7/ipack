@@ -28,8 +28,15 @@
 
             {%- case block.type -%}
             {%- when 'image' -%}
-
-                <picture>
+              {% if block.settings.video %}
+                <div class="video-wrapper-main">
+                  <video autoplay="true" controls="false" width="100%" muted loop>
+                    <source src="{{ block.settings.video.sources[1].url }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                {% else %}
+                  <picture>
                     {%- assign imgMobile = block.settings.imageMobile -%}
                     {%- assign imgDesktop = block.settings.image -%}
 
@@ -44,8 +51,17 @@
                     {%- else -%}
                     {{ 'collection-2' | placeholder_svg_tag: 'svg-placeholder' }}
                     {%- endif -%}
-                </picture>
-                {% if  block.settings.imageHover%}
+                  </picture>
+                {% endif %}
+                {% if block.settings.videoHover %}
+                  <div class="video-wrapper">
+                      <video autoplay="true" controls="false" width="100%" muted loop>
+                        <source src="{{ block.settings.videoHover.sources[1].url }}" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
+                  </div>
+                {% else %}
+                  {% if  block.settings.imageHover%}
                     <picture class="hover_image">
 
                       {%- if imgDesktop != nil or imgMobile != nil -%}
@@ -60,6 +76,7 @@
                       {{ 'collection-2' | placeholder_svg_tag: 'svg-placeholder' }}
                       {%- endif -%}
                   </picture>
+                  {% endif %}
                 {% endif %}
 
             {%- when 'video' -%}
@@ -165,9 +182,21 @@
           "info": "9:16 recommended"
         },
         {
+          "type": "video",
+          "id": "video",
+          "label": "Video Desktop",
+          "info": "9:16 recommended"
+        },
+        {
           "type": "image_picker",
           "id": "imageHover",
           "label": "Image Hover",
+          "info": "9:16 recommended"
+        },
+        {
+          "type": "video",
+          "id": "videoHover",
+          "label": "Video Hover",
           "info": "9:16 recommended"
         },
         {

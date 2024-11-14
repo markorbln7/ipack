@@ -4,24 +4,27 @@
     <h3 class="gs-title">{{ section.settings.heading }}</h3>
     {%- endif -%}
     <bullet-marquee go
-        bullet-reverse="{{ section.settings.marqueeDirection }}" 
-        bullet-speed="{{ section.settings.marqueeSpeeds }}" 
+        bullet-reverse="{{ section.settings.marqueeDirection }}"
+        bullet-speed="{{ section.settings.marqueeSpeeds }}"
         bullet-pause="{{ section.settings.marqueePause }}"
         bullet-image="true"
     >
         {%- for i in (1..10) -%}
         <x-flex direction="row" ai="center" class="projectile" {% unless forloop.first %}aria-hidden="true"{% endunless %}>
             {% for block in section.blocks %}
-                <span {{ block.shopify_attributes }}> 
+                <span class="info-play-trigger-holder" {{ block.shopify_attributes }}>
+                    {% if block.settings.video %}
+                    <div class="info-play-trigger" data-video="{{ block.settings.video.sources[1].url }}"></div>
+                    {% endif %}
                     {% if block.settings.link != blank %}<a href="{{ block.settings.link }}" class="no-style" {%- if block.settings.newTab == true -%}rel="nofollow noopener noreferrer" target="_blank"{%- endif -%}>{% endif %}
                     <picture>
                     {%- liquid
-                        assign img = block.settings.image 
-                        if img != nil 
+                        assign img = block.settings.image
+                        if img != nil
                             render 'global-img' img: img, width: 500, loading: "lazy"
-                        else 
+                        else
                             echo 'image' | placeholder_svg_tag: 'svg-placeholder'
-                        endif 
+                        endif
                     -%}
                     </picture>
                     {% if block.settings.link != blank %}</a>{% endif %}
@@ -146,6 +149,11 @@
           "type": "image_picker",
           "id": "image",
           "label": "Image"
+        },
+        {
+          "type": "video",
+          "id": "video",
+          "label": "Video"
         },
         {
           "type": "url",
