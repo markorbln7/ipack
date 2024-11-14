@@ -110,6 +110,7 @@
         "logo_image_UTrCRE",
         "logo_image_pEx8gw"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "headingAlignment": "start",
