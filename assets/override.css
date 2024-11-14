@@ -87,3 +87,10 @@
     height: 100%;
     cursor: pointer;
 }
+.hero-double img {
+    object-fit: cover;
+}
+.hero-double picture {
+    height: 100%;
+    background: white;
+}
