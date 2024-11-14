@@ -128,6 +128,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/5H8A1868-9x16-desktop.jpg",
+            "videoHover": "shopify://files/videos/Gen-3%20Alpha%20Turbo%20477183985%2C%20Camera%20tilts%20down%20an%2C%205H8A1868jpg%20(1)%2C%20M%205 (1).mp4",
             "imageMobile": "shopify://shop_images/5H8A1868-9x16-mobile.jpg",
             "title": "Perfect for Travel",
             "block_title": "",
@@ -142,7 +143,7 @@
         "image_kxKURd": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/5H8A1868-9x16-desktop.jpg",
+            "image": "shopify://shop_images/5H8A2034_1.jpg",
             "imageMobile": "shopify://shop_images/5H8A1868-9x16-mobile.jpg",
             "title": "Extra Space for Essentials",
             "block_title": "",
@@ -158,6 +159,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/5H8A2500-9x16-desktop.jpg",
+            "videoHover": "shopify://files/videos/Gen-3%20Alpha%20Turbo%20734826036%2C%20Static%20shot%2C%20slow%20mo%2C%205H8A2500jpg%2C%20M%205.mp4",
             "imageMobile": "shopify://shop_images/5H8A2500-9x16-mobile.jpg",
             "title": "Easy to Clean",
             "block_title": "",
