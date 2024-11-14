@@ -35,6 +35,7 @@
     width: 100%;
     opacity: 0;
     transition: opacity 0.3s;
+    height: 100%;
 }
 .block-holder:hover .video-wrapper {
     opacity: 1;
@@ -94,4 +95,9 @@
 .hero-double picture {
     height: 100%;
     background: white;
+}
+.hero-double video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
