@@ -229,6 +229,96 @@
         "titleHasBg": false
       }
     },
+    "gs_logolist_scroll_nPGwyj": {
+      "type": "gs-logolist-scroll",
+      "blocks": {
+        "logo_image_9bJPyt": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/bottom_zip_around_shoe_compartment.png",
+            "link": "",
+            "newTab": false
+          }
+        },
+        "logo_image_9M77rT": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/padded_shoulder_strap.png",
+            "link": "",
+            "newTab": false
+          }
+        },
+        "logo_image_jUTM6P": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/easy_to_clean.png",
+            "link": "",
+            "newTab": false
+          }
+        },
+        "logo_image_hzJTpx": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/soft_touch_nylon.png",
+            "link": "",
+            "newTab": false
+          }
+        },
+        "logo_image_fNx6Wt": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/trolly_sleeve.png",
+            "link": "",
+            "newTab": false
+          }
+        },
+        "logo_image_nmgNbP": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/water_bottle_pocket.png",
+            "link": "",
+            "newTab": false
+          }
+        },
+        "logo_image_gBiewY": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/double_padded_laptop_sleeve.png",
+            "link": "",
+            "newTab": false
+          }
+        },
+        "logo_image_mmHmfa": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/passport_pocket.png",
+            "link": "",
+            "newTab": false
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_9bJPyt",
+        "logo_image_9M77rT",
+        "logo_image_jUTM6P",
+        "logo_image_hzJTpx",
+        "logo_image_fNx6Wt",
+        "logo_image_nmgNbP",
+        "logo_image_gBiewY",
+        "logo_image_mmHmfa"
+      ],
+      "settings": {
+        "heading": "",
+        "headingAlignment": "start",
+        "logoWidth": 60,
+        "logoPadding": 30,
+        "marqueeDirection": "false",
+        "marqueeSpeeds": 100,
+        "marqueePause": true,
+        "headingBg": "rgba(0,0,0,0)",
+        "headingColor": "#000000"
+      }
+    },
     "gs_logolist_V7LTEF": {
       "type": "gs-logolist",
       "blocks": {
@@ -289,6 +379,7 @@
         "logo_image_UTrCRE",
         "logo_image_pEx8gw"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "headingAlignment": "start",
@@ -450,6 +541,7 @@
     "gs_hero_double_9z9pCV",
     "gs_hero_ndrWCB",
     "gs_hero_video_TTetbd",
+    "gs_logolist_scroll_nPGwyj",
     "gs_logolist_V7LTEF",
     "gs_image_text_rK6pzV",
     "reviews",
