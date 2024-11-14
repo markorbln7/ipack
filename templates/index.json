@@ -376,6 +376,13 @@
             "name": "Tommy P.",
             "review": "<p><strong>The nylon feels so nice but is also easy to clean. I spilled coffee on it, and it wiped right off with no stain!</strong></p>"
           }
+        },
+        "text_gBKPtJ": {
+          "type": "text",
+          "settings": {
+            "name": "Nina B.",
+            "review": "<p><strong>Finally, a shoulder strap that’s comfortable even when the bag is full. I carry a lot, and this strap doesn’t dig into my shoulder</strong></p>"
+          }
         }
       },
       "block_order": [
@@ -383,7 +390,8 @@
         "review2",
         "text_WtFgEC",
         "text_VRQbVw",
-        "text_E4EwWr"
+        "text_E4EwWr",
+        "text_gBKPtJ"
       ],
       "custom_css": [
         ".reviews p {text-align: left;}"
