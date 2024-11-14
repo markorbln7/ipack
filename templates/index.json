@@ -229,8 +229,42 @@
         "perRowMob": "1"
       }
     },
+    "gs_hero_ndrWCB": {
+      "type": "gs-hero",
+      "blocks": {
+        "image_6qcirF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5H8A2162-16x9-desktop.jpg",
+            "imageMobile": "shopify://shop_images/5H8A2162-16x9-desktop.jpg",
+            "imgClickable": false
+          }
+        }
+      },
+      "block_order": [
+        "image_6qcirF"
+      ],
+      "settings": {
+        "heroHeight": "var(--heroHeight-f)",
+        "cropVideo": false,
+        "title": "Hero heading",
+        "content": "",
+        "cta": "",
+        "url": "",
+        "contentPosition": "center between",
+        "contentDirection": "row",
+        "textAlignment": "left",
+        "contentPositionMob": "center between",
+        "contentDirectionMob": "column",
+        "textAlignmentMob": "center",
+        "heroMetaH1Bg": "#FFFFFF",
+        "heroMetaH1Color": "#000000",
+        "heroMetaH1hasBg": false
+      }
+    },
     "gs_hero_video_TTetbd": {
       "type": "gs-hero-video",
+      "disabled": true,
       "settings": {
         "title": "",
         "video": "https://www.youtube.com/watch?v=KZOEEwXsurY&t=2s&ab_channel=MangYang",
@@ -397,6 +431,7 @@
     "products",
     "hero-double",
     "gs_hero_double_9z9pCV",
+    "gs_hero_ndrWCB",
     "gs_hero_video_TTetbd",
     "gs_logolist_V7LTEF",
     "gs_image_text_rK6pzV",
