@@ -247,9 +247,9 @@
       "settings": {
         "heroHeight": "var(--heroHeight-f)",
         "cropVideo": false,
-        "title": "Hero heading",
-        "content": "",
-        "cta": "",
+        "title": "Carry-on",
+        "content": "Wherever you go take iPack with you.",
+        "cta": "Get Yours",
         "url": "",
         "contentPosition": "center between",
         "contentDirection": "row",
