@@ -101,3 +101,25 @@
     height: 100%;
     object-fit: cover;
 }
+.reviews {
+    width: 100%; /* Adjust width as needed */
+    overflow: hidden; /* Hide overflow outside the wrapper */
+}
+.reviews .box {
+    display: inline-flex; /* Align divs horizontally */
+    animation: scroll-chiron 40s linear infinite; /* Duration can be adjusted */
+}
+.reviews:hover .box {
+    animation-play-state: paused; /* Pause the scrolling when hovering */
+  }
+.reviews .box>x-cell {
+    flex: 0 0 50%; /* Make each item 25% of the wrapper width */
+}
+@keyframes scroll-chiron {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+}
