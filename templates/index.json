@@ -117,6 +117,7 @@
         ".hero-double .title {text-transform: capitalize; font-weight: 700; font-size: 18px;}"
       ],
       "settings": {
+        "custom_class": "hp-hero-double",
         "perRow": "2",
         "perRowMob": "1"
       }
@@ -181,6 +182,7 @@
         ".hero-double .title {text-transform: capitalize; font-weight: 700; font-size: 18px;}"
       ],
       "settings": {
+        "custom_class": "hp-hero-double",
         "perRow": "3",
         "perRowMob": "1"
       }
@@ -423,7 +425,7 @@
         "@media only screen and (max-width: 600px) {.image-text .meta {padding-left: 2rem; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/cotsco-1x1-mobile.jpg",
+        "image": "shopify://shop_images/im-828678.jpg",
         "alignment": "1",
         "textAlignment": "center",
         "background": "rgba(0,0,0,0)",
@@ -433,6 +435,13 @@
     "reviews": {
       "type": "gs-reviews",
       "blocks": {
+        "text_RPN6jq": {
+          "type": "text",
+          "settings": {
+            "name": "Reviewer name",
+            "review": "<p>Review text</p>"
+          }
+        },
         "review1": {
           "type": "text",
           "settings": {
@@ -505,6 +514,7 @@
         }
       },
       "block_order": [
+        "text_RPN6jq",
         "review1",
         "review2",
         "text_WtFgEC",
