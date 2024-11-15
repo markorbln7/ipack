@@ -24,12 +24,12 @@
         "video_aM8yQM": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/iPack Video Banner 16x91.mov",
-            "videoLoop": true,
+            "video": "shopify://files/videos/iPack Video 1 (White Bag) 16x93.mov",
+            "videoLoop": false,
             "videoMute": true,
             "videoAutoplay": true,
             "clickToPlay": true,
-            "playPause": false
+            "playPause": true
           }
         }
       },
@@ -40,8 +40,8 @@
       "settings": {
         "heroHeight": "var(--heroHeight-f)",
         "cropVideo": false,
-        "title": "",
-        "content": "",
+        "title": "Sample headline",
+        "content": "Sample Subhead",
         "cta": "Get Yours Now",
         "url": "https://costco.com",
         "contentPosition": "center between",
@@ -81,7 +81,7 @@
             "imageHover": "shopify://shop_images/2B4A0578-1x1-desktop_0a6d6866-091b-4c0d-88ad-6fec350f38dc.jpg",
             "videoHover": "shopify://files/videos/Gen-3%20Alpha%20Turbo%20494989426%2C%205H8A1476jpg%2C%20M%205.mp4",
             "imageMobile": "shopify://shop_images/5H8A1476-1x1-mobile.jpg",
-            "title": "iPack Puffy Tote in Ivor",
+            "title": "iPack Puffy Tote in Ivory",
             "block_title": "",
             "block_text": "",
             "url": "shopify://pages/puffy-tote-bag",
@@ -98,7 +98,7 @@
             "video": "shopify://files/videos/Gen-3%20Alpha%20Turbo%204185995824%2C%205H8A1449jpg%2C%20M%205.mp4",
             "imageHover": "shopify://shop_images/2B4A0614-1X1-desktop_56370d29-0e59-4565-905a-272de53b06fb.jpg",
             "imageMobile": "shopify://shop_images/5H8A1449-1x1-mobile.jpg",
-            "title": "iPack Puffy Tote in Black",
+            "title": "iPack Puffy Tote in Onyx",
             "block_title": "",
             "block_text": "",
             "url": "",
