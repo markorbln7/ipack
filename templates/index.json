@@ -435,13 +435,6 @@
     "reviews": {
       "type": "gs-reviews",
       "blocks": {
-        "text_RPN6jq": {
-          "type": "text",
-          "settings": {
-            "name": "Reviewer name",
-            "review": "<p>Review text</p>"
-          }
-        },
         "review1": {
           "type": "text",
           "settings": {
@@ -514,7 +507,6 @@
         }
       },
       "block_order": [
-        "text_RPN6jq",
         "review1",
         "review2",
         "text_WtFgEC",
