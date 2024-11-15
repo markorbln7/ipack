@@ -27,7 +27,7 @@
           "type": "image",
           "settings": {
             "span": "span=\"3\" span-s=row",
-            "image": "shopify://shop_images/2B4A7607-1X1-desktop.jpg",
+            "image": "shopify://shop_images/2B4A7607_dbc76f49-f975-492f-8713-a40bb7eccd66.jpg",
             "imgFullheight": true,
             "url": "",
             "openNewWindow": false
@@ -37,7 +37,7 @@
           "type": "image",
           "settings": {
             "span": "span=\"2\" span-s=row",
-            "image": "shopify://shop_images/5H8A1003-1x1-desktop.jpg",
+            "image": "shopify://shop_images/5H8A1003.jpg",
             "imgFullheight": true,
             "url": "",
             "openNewWindow": false
@@ -47,7 +47,7 @@
           "type": "image",
           "settings": {
             "span": "span=\"2\" span-s=row",
-            "image": "shopify://shop_images/5H8A1003-1x1-desktop.jpg",
+            "image": "shopify://shop_images/5H8A1273.jpg",
             "imgFullheight": true,
             "url": "",
             "openNewWindow": false
@@ -83,7 +83,7 @@
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
-            "heroBg": "#FFFFFF",
+            "heroBg": "#ffffff",
             "heroHasBg": false
           }
         },
@@ -98,7 +98,7 @@
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
-            "heroBg": "#FFFFFF",
+            "heroBg": "#ffffff",
             "heroHasBg": false
           }
         },
@@ -113,7 +113,7 @@
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
-            "heroBg": "#FFFFFF",
+            "heroBg": "#ffffff",
             "heroHasBg": false
           }
         }
@@ -124,6 +124,7 @@
         "image_zg3TRG"
       ],
       "settings": {
+        "custom_class": "hp-hero-double",
         "perRow": "3",
         "perRowMob": "1"
       }
@@ -156,7 +157,7 @@
         "contentPositionMob": "center between",
         "contentDirectionMob": "column",
         "textAlignmentMob": "center",
-        "heroMetaH1Bg": "#FFFFFF",
+        "heroMetaH1Bg": "#ffffff",
         "heroMetaH1Color": "#000000",
         "heroMetaH1hasBg": false
       }
@@ -175,7 +176,7 @@
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
-            "heroBg": "#FFFFFF",
+            "heroBg": "#ffffff",
             "heroHasBg": false
           }
         },
@@ -190,7 +191,7 @@
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
-            "heroBg": "#FFFFFF",
+            "heroBg": "#ffffff",
             "heroHasBg": false
           }
         },
@@ -205,7 +206,7 @@
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
-            "heroBg": "#FFFFFF",
+            "heroBg": "#ffffff",
             "heroHasBg": false
           }
         }
@@ -216,6 +217,7 @@
         "image_XhHhfK"
       ],
       "settings": {
+        "custom_class": "hp-hero-double",
         "perRow": "3",
         "perRowMob": "1"
       }
