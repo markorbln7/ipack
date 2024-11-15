@@ -15,7 +15,7 @@
                     assign mediaType = 'video'
             endcase
         -%}
-        <x-cell class="block-holder" media-type="{{ mediaType }}" {{ block.shopify_attributes }}>
+        <x-cell class="ss-block-holder block-holder" media-type="{{ mediaType }}" {{ block.shopify_attributes }}>
 
 
             {%- if block.settings.title -%}
@@ -28,13 +28,26 @@
 
             {%- case block.type -%}
             {%- when 'image' -%}
-              {% if block.settings.url != blank %}<a href="{{ block.settings.url }}" class="no-style">{% endif %}
+              {% if block.settings.url != blank %}<a href="{{ block.settings.url }}" class="no-style href-block">{% endif %}
               {% if block.settings.video %}
+
                 <div class="video-wrapper-main">
-                  <video autoplay="true" controls="false" width="100%" muted loop>
+                  {% render 'global-video'
+                    custom_source: block.settings.video.sources[1].url
+                    vid: block.settings.video,
+                    loop: true,
+                    autoplay: true,
+                    muted: true,
+                    clickToPlay: true,
+                    controls: false
+                  %}
+                  {% comment %} <video
+                    class="js"
+                    autoplay controls="false" width="100%" muted loop click-play crossorigin
+                    playsinline>
                     <source src="{{ block.settings.video.sources[1].url }}" type="video/mp4">
                     Your browser does not support the video tag.
-                  </video>
+                  </video> {% endcomment %}
                 </div>
                 {% else %}
                   <picture>
@@ -56,10 +69,19 @@
                 {% endif %}
                 {% if block.settings.videoHover %}
                   <div class="video-wrapper">
-                      <video autoplay="true" controls="false" width="100%" muted loop>
+                    {% render 'global-video'
+                      custom_source: block.settings.video.sources[1].url
+                      vid: block.settings.videoHover,
+                      loop: true,
+                      autoplay: true,
+                      muted: true,
+                      clickToPlay: true,
+                      controls: false
+                    %}
+                      {% comment %} <video autoplay="true" controls="false" width="100%" muted loop>
                         <source src="{{ block.settings.videoHover.sources[1].url }}" type="video/mp4">
                         Your browser does not support the video tag.
-                      </video>
+                      </video> {% endcomment %}
                   </div>
                 {% else %}
                   {% if  block.settings.imageHover%}

@@ -25,6 +25,9 @@
     opacity: 0;
     transition: opacity 0.3s;
 }
+.block-holder {
+    z-index: 9999999999999999999999;
+}
 .block-holder:hover .hover_image {
     opacity: 1;
 }
@@ -195,4 +198,17 @@ a.no-style:hover {
 .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
     content: 'prev';
     font-size: 22px;
+}
+.href-block {
+    display: block;
+    height: 100%;
+}
+video::-webkit-media-controls,
+    video::-webkit-media-controls-enclosure {
+      display: none !important;
+      visibility: hidden !important;
+      pointer-events: none !important;
+}
+video-player {
+    height: 100%;
 }

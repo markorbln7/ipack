@@ -4,7 +4,7 @@ If you want to reuse the player in your section, please refer to 'gs-hero.liquid
 -- [ USAGE ] --
     {%- liquid
         assign vid = block.settings.video
-        assign vidMobile = block.settings.videoMobile | default: nil 
+        assign vidMobile = block.settings.videoMobile | default: nil
 
         assign loop = block.settings.videoLoop
         assign autoplay = block.settings.videoAutoplay
@@ -34,11 +34,11 @@ If you want to reuse the player in your section, please refer to 'gs-hero.liquid
     assign autoplay = autoplay | default: false
     assign muted = muted | default: false
     assign controls = controls | default: false
-    assign clickToPlay = clickToPlay | default: false 
+    assign clickToPlay = clickToPlay | default: false
 -%}
 
 {%- if vid != nil -%}
-    {%- comment -%} 
+    {%- comment -%}
         Desktop video
     {%- endcomment -%}
         {%- liquid
@@ -47,13 +47,13 @@ If you want to reuse the player in your section, please refer to 'gs-hero.liquid
                 assign style = 'large-only'
             endif
             assign viewport = 'desktop'
-            assign vidPoster = vid.preview_image | image_url: width: 1500 
+            assign vidPoster = vid.preview_image | image_url: width: 1500
         -%}
 
         <video-player x-grid columns="absolute" data-viewport="{{ viewport }}" class="{{ style }}">
             <video class="js"
                 poster="{{ vidPoster }}"
-                crossorigin 
+                crossorigin
                 playsinline
                 {% if loop %}loop{% endif %}
                 {% if autoplay %}autoplay muted{% endif %}
@@ -61,8 +61,9 @@ If you want to reuse the player in your section, please refer to 'gs-hero.liquid
                 {% if clickToPlay %}click-play{% endif %}
             >
                 {%- for video in vid.sources -%}
-                <source data-src="{{ video.url }}" type="{{ video.mime_type }}">
+                    <source data-src="{{ vid.sources[1].url }}" type="{{ video.mime_type }}">
                 {%- endfor -%}
+
             </video>
 
             {% # theme-check-disable RemoteAsset %}
@@ -75,7 +76,7 @@ If you want to reuse the player in your section, please refer to 'gs-hero.liquid
             </button>
         </video-player>
 
-    {%- comment -%} 
+    {%- comment -%}
         Mobile video
     {%- endcomment -%}
     {%- if vidMobile != nil -%}
@@ -88,8 +89,8 @@ If you want to reuse the player in your section, please refer to 'gs-hero.liquid
         <video-player x-grid columns="absolute" data-viewport="{{ viewport }}" class="{{ style }}">
             <video class="js"
                 poster="{{ vidPoster }}"
-                crossorigin 
-                playsinline 
+                crossorigin
+                playsinline
                 {% if loop %}loop{% endif %}
                 {% if autoplay %}autoplay muted{% endif %}
                 {% if muted %}muted{% endif %}
