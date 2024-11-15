@@ -24,8 +24,8 @@
         "video_aM8yQM": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/iPack Video 1 (White Bag) 16x93.mov",
-            "videoLoop": false,
+            "video": "shopify://files/videos/iPack Video Banner 16x91.mov",
+            "videoLoop": true,
             "videoMute": true,
             "videoAutoplay": true,
             "clickToPlay": true,
