@@ -32,6 +32,7 @@
       "block_order": [
         "image_EgwdFH"
       ],
+      "disabled": true,
       "settings": {
         "heroHeight": "var(--heroHeight-l)",
         "cropVideo": false,
