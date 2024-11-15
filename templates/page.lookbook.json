@@ -124,7 +124,7 @@
         "image_zg3TRG"
       ],
       "settings": {
-        "custom_class": "hp-hero-double",
+        "custom_class": "",
         "perRow": "3",
         "perRowMob": "1"
       }
@@ -217,7 +217,7 @@
         "image_XhHhfK"
       ],
       "settings": {
-        "custom_class": "hp-hero-double",
+        "custom_class": "",
         "perRow": "3",
         "perRowMob": "1"
       }
