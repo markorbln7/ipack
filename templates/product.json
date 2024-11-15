@@ -89,6 +89,16 @@
             "page": "",
             "liquid": ""
           }
+        },
+        "collapsible_tab_jzY4fr": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Details",
+            "checked": false,
+            "content": "",
+            "page": "",
+            "liquid": "<div class=\"chiron-wrapper\">\n  <div class=\"chiron-content\">\n    <div class=\"chiron-item\"><img src=\"https://cdn.shopify.com/s/files/1/0911/1073/6147/files/bottom_zip_around_shoe_compartment.png?v=1731490343\"></div>\n    <div class=\"chiron-item\"><img src=\"https://cdn.shopify.com/s/files/1/0911/1073/6147/files/padded_shoulder_strap.png?v=1731490343\"></div>\n    <div class=\"chiron-item\"><img src=\"https://cdn.shopify.com/s/files/1/0911/1073/6147/files/easy_to_clean.png?v=1731490343\"></div>\n    <div class=\"chiron-item\"><img src=\"https://cdn.shopify.com/s/files/1/0911/1073/6147/files/soft_touch_nylon.png?v=1731490343\"></div>\n    <div class=\"chiron-item\"><img src=\"https://cdn.shopify.com/s/files/1/0911/1073/6147/files/trolly_sleeve.png?v=1731490343\"></div>\n    <div class=\"chiron-item\"><img src=\"https://cdn.shopify.com/s/files/1/0911/1073/6147/files/water_bottle_pocket.png?v=1731490343\"></div>\n    <div class=\"chiron-item\"><img src=\"https://cdn.shopify.com/s/files/1/0911/1073/6147/files/double_padded_laptop_sleeve.png?v=1731490343\"></div>\n    <div class=\"chiron-item\"><img src=\"https://cdn.shopify.com/s/files/1/0911/1073/6147/files/passport_pocket.png?v=1731490343\"></div>\n    <div class=\"chiron-item\"><img src=\"https://cdn.shopify.com/s/files/1/0911/1073/6147/files/bottom_zip_around_shoe_compartment.png?v=1731490343\"></div>\n    <div class=\"chiron-item\"><img src=\"https://cdn.shopify.com/s/files/1/0911/1073/6147/files/padded_shoulder_strap.png?v=1731490343\"></div>\n    <div class=\"chiron-item\"><img src=\"https://cdn.shopify.com/s/files/1/0911/1073/6147/files/easy_to_clean.png?v=1731490343\"></div>\n    <div class=\"chiron-item\"><img src=\"https://cdn.shopify.com/s/files/1/0911/1073/6147/files/soft_touch_nylon.png?v=1731490343\"></div>\n    <div class=\"chiron-item\"><img src=\"https://cdn.shopify.com/s/files/1/0911/1073/6147/files/trolly_sleeve.png?v=1731490343\"></div>\n    <div class=\"chiron-item\"><img src=\"https://cdn.shopify.com/s/files/1/0911/1073/6147/files/water_bottle_pocket.png?v=1731490343\"></div>\n    <div class=\"chiron-item\"><img src=\"https://cdn.shopify.com/s/files/1/0911/1073/6147/files/double_padded_laptop_sleeve.png?v=1731490343\"></div>\n    <div class=\"chiron-item\"><img src=\"https://cdn.shopify.com/s/files/1/0911/1073/6147/files/passport_pocket.png?v=1731490343\"></div>\n  </div>\n</div>\n<style>\n.chiron-wrapper {\n  width: 100%; /* Show 2 items at a time */\n  overflow: hidden; \n  white-space: nowrap;\n}\n\n.chiron-content {\n  display: inline-flex;\n  animation: scroll-chiron 10s linear infinite;\n}\n\n.chiron-item {\n  flex: 0 0 15%; /* Make each item 25% of the wrapper's width */\n  white-space: nowrap; /* Prevent text wrapping */\n  overflow: hidden; /* Hide text overflow */\n  text-overflow: ellipsis; /* Show \"...\" if text overflows */\n  box-sizing: border-box; /* Include padding and borders in width */\n}\n\n@keyframes scroll-chiron {\n  0% {\n    transform: translateX(0);\n  }\n  100% {\n    transform: translateX(-100%);\n  }\n}\n\n/* Add this to pause animation on hover */\n.chiron-wrapper:hover .chiron-content {\n  animation-play-state: paused; /* Pause the scrolling when hovering */\n}\n\n</style>"
+          }
         }
       },
       "block_order": [
@@ -102,7 +112,8 @@
         "buy_buttons",
         "share",
         "collapsible_tab",
-        "collapsible_tab_q7XUH8"
+        "collapsible_tab_q7XUH8",
+        "collapsible_tab_jzY4fr"
       ],
       "custom_css": [
         ".bullet-product-content h1 {text-transform: capitalize; font-weight: 700; font-size: 26px;}",
