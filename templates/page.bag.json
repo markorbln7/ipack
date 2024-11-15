@@ -50,74 +50,6 @@
         "heroMetaH1hasBg": false
       }
     },
-    "gs_logolist_V7LTEF": {
-      "type": "gs-logolist",
-      "blocks": {
-        "logo_image_6NN93z": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify://shop_images/bottom_zip_around_shoe_compartment.png",
-            "link": "",
-            "newTab": false
-          }
-        },
-        "logo_image_CMYrtn": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify://shop_images/padded_shoulder_strap.png",
-            "link": "",
-            "newTab": false
-          }
-        },
-        "logo_image_W4xLhB": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify://shop_images/easy_to_clean.png",
-            "link": "",
-            "newTab": false
-          }
-        },
-        "logo_image_YwkKEK": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify://shop_images/soft_touch_nylon.png",
-            "link": "",
-            "newTab": false
-          }
-        },
-        "logo_image_UTrCRE": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify://shop_images/trolly_sleeve.png",
-            "link": "",
-            "newTab": false
-          }
-        },
-        "logo_image_pEx8gw": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify://shop_images/water_bottle_pocket.png",
-            "link": "",
-            "newTab": false
-          }
-        }
-      },
-      "block_order": [
-        "logo_image_6NN93z",
-        "logo_image_CMYrtn",
-        "logo_image_W4xLhB",
-        "logo_image_YwkKEK",
-        "logo_image_UTrCRE",
-        "logo_image_pEx8gw"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "headingAlignment": "start",
-        "headingBg": "rgba(0,0,0,0)",
-        "headingColor": "#000000"
-      }
-    },
     "gs_hero_double_LjczWF": {
       "type": "gs-hero-double",
       "blocks": {
@@ -290,7 +222,6 @@
   "order": [
     "main",
     "gs_hero_AKKB8W",
-    "gs_logolist_V7LTEF",
     "gs_hero_double_LjczWF",
     "gs_hero_double_gyntVy"
   ]
