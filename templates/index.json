@@ -203,7 +203,7 @@
         "image_6qcirF"
       ],
       "settings": {
-        "heroHeight": "var(--heroHeight-f)",
+        "heroHeight": "var(--heroHeight-m)",
         "cropVideo": false,
         "title": "Carry-on",
         "content": "Wherever you go take iPack with you.",
