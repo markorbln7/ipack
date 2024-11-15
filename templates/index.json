@@ -243,6 +243,7 @@
           "type": "logo_image",
           "settings": {
             "image": "shopify://shop_images/padded_shoulder_strap.png",
+            "video": "shopify://files/videos/iPack (White Bag) Shoulder Strap 16x9.mp4",
             "link": "",
             "newTab": false
           }
@@ -259,6 +260,7 @@
           "type": "logo_image",
           "settings": {
             "image": "shopify://shop_images/soft_touch_nylon.png",
+            "video": "shopify://files/videos/iPack (White Bag) Soft Nylon 16x9.mp4",
             "link": "",
             "newTab": false
           }
@@ -267,6 +269,7 @@
           "type": "logo_image",
           "settings": {
             "image": "shopify://shop_images/trolly_sleeve.png",
+            "video": "shopify://files/videos/iPack (White Bag) Trolly Sleeve 16x9.mp4",
             "link": "",
             "newTab": false
           }
@@ -275,6 +278,7 @@
           "type": "logo_image",
           "settings": {
             "image": "shopify://shop_images/water_bottle_pocket.png",
+            "video": "shopify://files/videos/iPack (White Bag) Water Bottle 16x9.mp4",
             "link": "",
             "newTab": false
           }
@@ -283,6 +287,7 @@
           "type": "logo_image",
           "settings": {
             "image": "shopify://shop_images/double_padded_laptop_sleeve.png",
+            "video": "shopify://files/videos/iPack (White Bag) Laptop Sleeve 16x9.mp4",
             "link": "",
             "newTab": false
           }
@@ -291,6 +296,7 @@
           "type": "logo_image",
           "settings": {
             "image": "shopify://shop_images/passport_pocket.png",
+            "video": "shopify://files/videos/iPack (White Bag) Passport 16x9.mp4",
             "link": "",
             "newTab": false
           }
