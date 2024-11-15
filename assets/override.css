@@ -26,7 +26,7 @@
     transition: opacity 0.3s;
 }
 .block-holder {
-    z-index: 9999999999999999999999;
+    z-index: 99999999;
 }
 .block-holder:hover .hover_image {
     opacity: 1;
@@ -224,3 +224,14 @@ details[open] summary::after {
 details summary::after {
     transform: rotate(0deg) !important;
 }
+.info-video {
+    max-width: 70%;
+    margin: 0 auto;
+    margin-left: 15%;
+}
+@media only screen and (max-width: 600px) {
+    .info-video {
+        max-width: 100%;
+        margin-left: 0%;
+    }
+  }
