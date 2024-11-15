@@ -1,4 +1,4 @@
-{%- liquid 
+{%- liquid
     render 'inc-stylesheet', src: 'product.css'
 
     # Page layout
@@ -11,11 +11,11 @@
         assign spanc = 'span="2"'
     elsif mediaColumnWidth == 'full'
         assign fullMediaWidth = 'full-media-width'
-    else 
+    else
         assign cols = 2
     endif
 
-    # Pin content section 
+    # Pin content section
     assign pinSection = section.settings.pinSection
 
     # Product form ID
@@ -43,21 +43,34 @@
 
     {%- comment -%} ---------- [ Product media ] ----------- {%- endcomment -%}
         <x-cell class="bullet-product-media" order="2" order-s="2" {{ span }} span-s="row" data-hide-variant-images="{{ section.settings.hideVariants }}">
-        {%- liquid
+        {% comment %} {%- liquid
             assign first_3d_model = product.media | where: 'media_type', 'model' | first
             if first_3d_model
                 echo '<link id="ModelViewerStyle" rel="stylesheet" href="https://cdn.shopify.com/shopifycloud/model-viewer-ui/assets/v1.0/model-viewer-ui.css">'
             endif
-    
+
             assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src'
             render 'product-media-gallery', product: product, section: section, variant_images: variant_images, imageZoom: section.settings.imageZoom, showThumbnailSlider: section.settings.showThumbnailSlider, mediaLayout: section.settings.mediaLayout, mediaLayoutMob: section.settings.mediaLayoutMob, showSlideCounter: section.settings.showSlideCounter, hideVariantImages: section.settings.hideVariants
-        -%}
+        -%} {% endcomment %}
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            {% for image in product.images %}
+              <div class="swiper-slide">
+                <img src="{{ image.src | img_url: '1024x1024' }}" alt="{{ image.alt | escape }}">
+              </div>
+            {% endfor %}
+          </div>
+
+          <!-- Navigation arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
         </x-cell>
 
     {%- comment -%} ---------- [ Product content ] ----------- {%- endcomment -%}
         <x-cell class="bullet-product-content" {{ spanc }} span-s="row" order="{{ section.settings.mediaPosition }}" order-s="3" >
         <product-content x-flex direction="column">
-        {%- liquid 
+        {%- liquid
             for block in section.blocks
                 render 'product-content', product: product, block: block, product_form_id: pfid
             endfor

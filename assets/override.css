@@ -161,3 +161,38 @@ a.no-style:hover {
     position: relative;
     overflow: hidden;
 }
+.swiper-container {
+    position: relative;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    background-color: white;
+    color: #000;
+    border-radius: 50%;
+    padding: 10px;
+    z-index: 10;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid black;
+  }
+
+  .swiper-button-next {
+    right: 10px;
+  }
+
+  .swiper-button-prev {
+    left: 10px;
+  }
+  .swiper-container {
+    overflow: hidden;
+  }
+  .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: 'next';
+    font-size: 22px;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: 'prev';
+    font-size: 22px;
+}

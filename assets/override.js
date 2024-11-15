@@ -20,3 +20,10 @@ closePlayBtn.addEventListener('click', (e) => {
     document.querySelector('html').classList.remove('no-scroll')
     document.querySelector('.info-video').pause();
 })
+var swiper = new Swiper('.swiper-container', {
+    loop: true, // Enable looping of the slides
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
