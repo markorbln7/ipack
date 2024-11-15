@@ -33,7 +33,7 @@
         "image_EgwdFH"
       ],
       "settings": {
-        "heroHeight": "var(--heroHeight-m)",
+        "heroHeight": "var(--heroHeight-l)",
         "cropVideo": false,
         "title": "",
         "content": "",
