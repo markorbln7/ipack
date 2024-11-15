@@ -54,9 +54,18 @@
         -%} {% endcomment %}
         <div class="swiper-container">
           <div class="swiper-wrapper">
-            {% for image in product.images %}
+            {% for media in product.media %}
               <div class="swiper-slide">
-                <img src="{{ image.src | img_url: '1024x1024' }}" alt="{{ image.alt | escape }}">
+                {% if media.media_type == 'image' %}
+                  <!-- Image Slide -->
+                  <img src="{{ media.src | img_url: '1024x1024' }}" alt="{{ media.alt | escape }}">
+                {% elsif media.media_type == 'video' %}
+                  <!-- Video Slide -->
+                  <video class="swiper-video" preload="metadata" muted>
+                    <source src="{{ media.sources[1].url }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                {% endif %}
               </div>
             {% endfor %}
           </div>

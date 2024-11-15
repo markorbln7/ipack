@@ -26,4 +26,25 @@ var swiper = new Swiper('.swiper-container', {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
+    on: {
+        slideChange: function () {
+          // Pause all videos first
+          var videos = document.querySelectorAll('.swiper-slide video');
+          videos.forEach(function (video) {
+            console.log('pauza')
+            video.pause();
+            video.currentTime = 0; // Optional: reset video to the beginning
+          });
+
+          // Play video in the active slide
+          setTimeout(() => {
+            var activeSlide = document.querySelector('.swiper-slide-active video');
+            console.log(activeSlide, 'activeSlide')
+            if (activeSlide) {
+                console.log('play')
+                activeSlide.play();
+            }
+          }, 300)
+        },
+    },
   });

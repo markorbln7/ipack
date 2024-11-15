@@ -212,3 +212,6 @@ video::-webkit-media-controls,
 video-player {
     height: 100%;
 }
+.swiper-video {
+    width: 100%;
+}
