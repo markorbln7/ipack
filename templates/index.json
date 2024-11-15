@@ -178,7 +178,7 @@
         ".hero-double .title {text-transform: capitalize; font-weight: 700; font-size: 18px;}"
       ],
       "settings": {
-        "custom_class": "hp-hero-double",
+        "custom_class": "",
         "perRow": "3",
         "perRowMob": "1"
       }
