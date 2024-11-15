@@ -234,6 +234,7 @@
           "type": "logo_image",
           "settings": {
             "image": "shopify://shop_images/bottom_zip_around_shoe_compartment.png",
+            "video": "shopify://files/videos/iPack (White Bag) Shoe Compartment 16x9.mp4",
             "link": "",
             "newTab": false
           }
