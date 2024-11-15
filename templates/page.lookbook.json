@@ -145,7 +145,7 @@
         "image_E3DXhw"
       ],
       "settings": {
-        "heroHeight": "var(--heroHeight-l)",
+        "heroHeight": "var(--heroHeight-m)",
         "cropVideo": false,
         "title": "",
         "content": "",
