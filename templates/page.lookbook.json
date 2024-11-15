@@ -27,7 +27,7 @@
           "type": "image",
           "settings": {
             "span": "span=\"3\" span-s=row",
-            "image": "shopify://shop_images/2B4A7607-1X1-desktop.jpg",
+            "image": "shopify://shop_images/2B4A7607_dbc76f49-f975-492f-8713-a40bb7eccd66.jpg",
             "imgFullheight": true,
             "url": "",
             "openNewWindow": false
@@ -37,7 +37,7 @@
           "type": "image",
           "settings": {
             "span": "span=\"2\" span-s=row",
-            "image": "shopify://shop_images/5H8A1003-1x1-desktop.jpg",
+            "image": "shopify://shop_images/5H8A1003.jpg",
             "imgFullheight": true,
             "url": "",
             "openNewWindow": false
@@ -47,7 +47,7 @@
           "type": "image",
           "settings": {
             "span": "span=\"2\" span-s=row",
-            "image": "shopify://shop_images/5H8A1003-1x1-desktop.jpg",
+            "image": "shopify://shop_images/5H8A1273.jpg",
             "imgFullheight": true,
             "url": "",
             "openNewWindow": false
@@ -75,45 +75,45 @@
         "image_8ndDVy": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/5H8A1093-9x16-desktop.jpg",
-            "imageMobile": "shopify://shop_images/5H8A1093-9x16-desktop.jpg",
+            "image": "shopify://shop_images/2B4A7564.jpg",
+            "imageMobile": "shopify://shop_images/2B4A7564.jpg",
             "title": "",
             "block_title": "",
             "block_text": "",
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
-            "heroBg": "#FFFFFF",
+            "heroBg": "#ffffff",
             "heroHasBg": false
           }
         },
         "image_FnQPQa": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/5H8A1376-9x16-desktop.jpg",
-            "imageMobile": "shopify://shop_images/5H8A1376-9x16-desktop.jpg",
+            "image": "shopify://shop_images/5H8A1337.jpg",
+            "imageMobile": "shopify://shop_images/5H8A1337.jpg",
             "title": "",
             "block_title": "",
             "block_text": "",
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
-            "heroBg": "#FFFFFF",
+            "heroBg": "#ffffff",
             "heroHasBg": false
           }
         },
         "image_zg3TRG": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/5H8A0962-9x16-desktop.jpg",
-            "imageMobile": "shopify://shop_images/5H8A0962-9x16-desktop.jpg",
+            "image": "shopify://shop_images/2B4A7513.jpg",
+            "imageMobile": "shopify://shop_images/2B4A7513.jpg",
             "title": "",
             "block_title": "",
             "block_text": "",
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
-            "heroBg": "#FFFFFF",
+            "heroBg": "#ffffff",
             "heroHasBg": false
           }
         }
@@ -124,6 +124,7 @@
         "image_zg3TRG"
       ],
       "settings": {
+        "custom_class": "hp-hero-double",
         "perRow": "3",
         "perRowMob": "1"
       }
@@ -134,8 +135,8 @@
         "image_E3DXhw": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/5H8A2162-16x9-desktop.jpg",
-            "imageMobile": "shopify://shop_images/5H8A2162-16x9-desktop.jpg",
+            "image": "shopify://shop_images/5H8A2246.jpg",
+            "imageMobile": "shopify://shop_images/5H8A2487.jpg",
             "imgClickable": false
           }
         }
@@ -144,7 +145,7 @@
         "image_E3DXhw"
       ],
       "settings": {
-        "heroHeight": "var(--heroHeight-f)",
+        "heroHeight": "var(--heroHeight-l)",
         "cropVideo": false,
         "title": "",
         "content": "",
@@ -156,7 +157,7 @@
         "contentPositionMob": "center between",
         "contentDirectionMob": "column",
         "textAlignmentMob": "center",
-        "heroMetaH1Bg": "#FFFFFF",
+        "heroMetaH1Bg": "#ffffff",
         "heroMetaH1Color": "#000000",
         "heroMetaH1hasBg": false
       }
@@ -167,45 +168,45 @@
         "image_gzRcjN": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/5H8A0940-9x16-desktop.jpg",
-            "imageMobile": "shopify://shop_images/5H8A0940-9x16-desktop.jpg",
+            "image": "shopify://shop_images/5H8A1960.jpg",
+            "imageMobile": "shopify://shop_images/5H8A1960.jpg",
             "title": "",
             "block_title": "",
             "block_text": "",
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
-            "heroBg": "#FFFFFF",
+            "heroBg": "#ffffff",
             "heroHasBg": false
           }
         },
         "image_jeTVWQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/5H8A0956-9x16-desktop.jpg",
-            "imageMobile": "shopify://shop_images/5H8A0956-9x16-desktop.jpg",
+            "image": "shopify://shop_images/5H8A2021.jpg",
+            "imageMobile": "shopify://shop_images/5H8A2021.jpg",
             "title": "",
             "block_title": "",
             "block_text": "",
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
-            "heroBg": "#FFFFFF",
+            "heroBg": "#ffffff",
             "heroHasBg": false
           }
         },
         "image_XhHhfK": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/5H8A1947-9x16-desktop.jpg",
-            "imageMobile": "shopify://shop_images/5H8A1947-9x16-desktop.jpg",
+            "image": "shopify://shop_images/5H8A1947.jpg",
+            "imageMobile": "shopify://shop_images/5H8A1947.jpg",
             "title": "",
             "block_title": "",
             "block_text": "",
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
-            "heroBg": "#FFFFFF",
+            "heroBg": "#ffffff",
             "heroHasBg": false
           }
         }
@@ -216,6 +217,7 @@
         "image_XhHhfK"
       ],
       "settings": {
+        "custom_class": "hp-hero-double",
         "perRow": "3",
         "perRowMob": "1"
       }

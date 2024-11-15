@@ -73,9 +73,9 @@
         "collapsible_tab": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Shipping",
+            "heading": "Warranty",
             "checked": false,
-            "content": "<p>Shipping Details</p>",
+            "content": "<p>For warranty service, we ask that you Contact our Customer Service Department at:</p><p>​Olivet International, Inc.<br/>11015 Hopkins St.<br/>Mira Loma, CA 91752</p><p>​Toll- Free number 1-800-856-9119</p><p>​If Olivet determines that the damage or defect is covered, the product will be fixed or replaced, at Olivet’s option, with the same or similar product. Our warranties do not cover damage resulting from airline mishandling. If an airline damages your luggage, you should immediately file a claim directly with the airline. Damages not covered are damages resulting from abuse, cosmetic damage (such as stained fabrics,) and incidental or consequential damages (such as damage to or loss of the contents of a bag.)</p>",
             "page": "",
             "liquid": ""
           }
@@ -255,6 +255,7 @@
         "image_bNgEfe"
       ],
       "settings": {
+        "custom_class": "hp-hero-double",
         "perRow": "3",
         "perRowMob": "1"
       }
