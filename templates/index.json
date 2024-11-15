@@ -24,7 +24,7 @@
         "video_aM8yQM": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/iPack Video 1 (White Bag) 16x93.mov",
+            "video": "shopify://files/videos/iPack Video Banner 16x91.mov",
             "videoLoop": false,
             "videoMute": true,
             "videoAutoplay": true,
@@ -40,8 +40,8 @@
       "settings": {
         "heroHeight": "var(--heroHeight-f)",
         "cropVideo": false,
-        "title": "Sample headline",
-        "content": "Sample Subhead",
+        "title": "",
+        "content": "",
         "cta": "Get Yours Now",
         "url": "https://costco.com",
         "contentPosition": "center between",
