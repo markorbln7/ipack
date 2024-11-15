@@ -14,7 +14,7 @@
             {% for block in section.blocks %}
                 <span class="info-play-trigger-holder" {{ block.shopify_attributes }}>
                     {% if block.settings.video %}
-                    <div class="info-play-trigger" data-video="{{ block.settings.video.sources[1].url }}"></div>
+                    <div class="js-info-play-trigger info-play-trigger" data-video="{{ block.settings.video.sources[1].url }}"></div>
                     {% endif %}
                     {% if block.settings.link != blank %}<a href="{{ block.settings.link }}" class="no-style" {%- if block.settings.newTab == true -%}rel="nofollow noopener noreferrer" target="_blank"{%- endif -%}>{% endif %}
                     <picture>

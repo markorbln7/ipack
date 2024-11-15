@@ -1,4 +1,4 @@
-let infoPlayTrigers = document.querySelectorAll('.info-play-trigger');
+let infoPlayTrigers = document.querySelectorAll('.js-info-play-trigger');
 let closePlayBtn = document.querySelector('.close-play');
 infoPlayTrigers.forEach((infoTriger) => {
     infoTriger.addEventListener('click', (e) => {

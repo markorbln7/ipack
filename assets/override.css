@@ -3,7 +3,7 @@
     padding-bottom: 60px;
 }
 .colum-content h2 {
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 700;
     text-transform: capitalize;
     margin-bottom: 10px;
@@ -125,4 +125,39 @@
 }
 a.no-style:hover {
     text-decoration: none;
+}
+.learn-more {
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000; /* Customize color */
+    transition: color 0.3s ease;
+    position: relative;
+    z-index: 9999999999;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+}
+
+.learn-more .arrow {
+    margin-left: 8px; /* Space between text and arrow */
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+  .learn-more:hover .arrow {
+    transform: translateX(5px); /* Move arrow to the right */
+  }
+
+.hero-double a {
+    position: relative;
+}
+.hero-double x-flex.contents {
+    height: 10px;
+}
+.hero-double .block-holder {
+    position: relative;
+    overflow: hidden;
 }

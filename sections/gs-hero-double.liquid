@@ -16,7 +16,7 @@
             endcase
         -%}
         <x-cell class="block-holder" media-type="{{ mediaType }}" {{ block.shopify_attributes }}>
-            {% if block.settings.url != blank %}<a href="{{ block.settings.url }}" class="no-style">{% endif %}
+
 
             {%- if block.settings.title -%}
             <x-flex class="contents" pi="{{ block.settings.contentPosition }}">
@@ -28,6 +28,7 @@
 
             {%- case block.type -%}
             {%- when 'image' -%}
+              {% if block.settings.url != blank %}<a href="{{ block.settings.url }}" class="no-style">{% endif %}
               {% if block.settings.video %}
                 <div class="video-wrapper-main">
                   <video autoplay="true" controls="false" width="100%" muted loop>
@@ -78,6 +79,7 @@
                   </picture>
                   {% endif %}
                 {% endif %}
+                {%- if block.settings.url != blank -%}</a>{%- endif -%}
 
             {%- when 'video' -%}
 
@@ -101,12 +103,19 @@
             {%- endcase -%}
             {% if block.settings.block_title != blank %}
               <div class="colum-content">
-                <h2>{{ block.settings.block_title }}</h2>
-                <p>{{ block.settings.block_text }}</p>
+                <div>
+                  <h2>{{ block.settings.block_title }}</h2>
+                  <p>{{ block.settings.block_text }}</p>
+                </div>
+                {% if block.settings.block_video %}
+                <div data-video="{{ block.settings.block_video.sources[1].url }}" class="learn-more js-info-play-trigger">
+                  Learn More <span class="arrow">→</span>
+                </div>
+                {% endif %}
               </div>
             {% endif %}
 
-		 	{%- if block.settings.url != blank -%}</a>{%- endif -%}
+
 	 	</x-cell>
 		{%- endfor -%}
 	</x-grid>
@@ -226,6 +235,11 @@
           "type": "textarea",
           "id": "block_text",
           "label": "Block Text"
+        },
+        {
+          "type": "video",
+          "id": "block_video",
+          "label": "Block Video"
         },
         {
           "type": "url",
