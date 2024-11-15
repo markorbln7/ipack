@@ -163,6 +163,8 @@ a.no-style:hover {
 .hero-double .block-holder {
     position: relative;
     overflow: hidden;
+}
+.hp-hero-double .block-holder {
     aspect-ratio: 9/14;
 }
 .swiper-container {
