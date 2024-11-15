@@ -33,7 +33,7 @@
         "image_BHLNF6"
       ],
       "settings": {
-        "heroHeight": "var(--heroHeight-f)",
+        "heroHeight": "var(--heroHeight-l)",
         "cropVideo": false,
         "title": "",
         "content": "",
@@ -151,6 +151,7 @@
         "video_xBeCqW"
       ],
       "settings": {
+        "custom_class": "hp-hero-double",
         "perRow": "3",
         "perRowMob": "1"
       }
@@ -213,6 +214,7 @@
         "video_xBeCqW"
       ],
       "settings": {
+        "custom_class": "hp-hero-double",
         "perRow": "3",
         "perRowMob": "1"
       }
@@ -259,7 +261,7 @@
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
-            "heroBg": "#FFFFFF",
+            "heroBg": "#ffffff",
             "heroHasBg": false
           }
         },
@@ -275,7 +277,7 @@
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
-            "heroBg": "#FFFFFF",
+            "heroBg": "#ffffff",
             "heroHasBg": false
           }
         }
@@ -285,6 +287,7 @@
         "video_xUQt7Q"
       ],
       "settings": {
+        "custom_class": "hp-hero-double",
         "perRow": "2",
         "perRowMob": "1"
       }
@@ -317,7 +320,7 @@
         "contentPositionMob": "center between",
         "contentDirectionMob": "column",
         "textAlignmentMob": "center",
-        "heroMetaH1Bg": "#FFFFFF",
+        "heroMetaH1Bg": "#ffffff",
         "heroMetaH1Color": "#000000",
         "heroMetaH1hasBg": false
       }
