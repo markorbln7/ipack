@@ -135,7 +135,7 @@
         "image_E3DXhw": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/5H8A2162-16x9-desktop.jpg",
+            "image": "shopify://shop_images/5H8A2246.jpg",
             "imageMobile": "shopify://shop_images/5H8A2162-16x9-desktop.jpg",
             "imgClickable": false
           }
@@ -145,7 +145,7 @@
         "image_E3DXhw"
       ],
       "settings": {
-        "heroHeight": "var(--heroHeight-s)",
+        "heroHeight": "var(--heroHeight-l)",
         "cropVideo": false,
         "title": "",
         "content": "",
