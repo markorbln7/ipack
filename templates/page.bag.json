@@ -32,7 +32,6 @@
       "block_order": [
         "image_EgwdFH"
       ],
-      "disabled": true,
       "settings": {
         "heroHeight": "var(--heroHeight-l)",
         "cropVideo": false,
@@ -237,8 +236,8 @@
         "image_N8AiU8": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/5H8A1868-9x16-desktop_3c9e3a3a-540b-45d1-a03a-72c6ff95135f.jpg",
-            "imageMobile": "shopify://shop_images/5H8A1868-9x16-desktop_3c9e3a3a-540b-45d1-a03a-72c6ff95135f.jpg",
+            "image": "shopify://shop_images/5H8A1868.jpg",
+            "imageMobile": "shopify://shop_images/5H8A1868.jpg",
             "title": "Your hero image heading",
             "block_title": "Trolly Sleeve",
             "block_text": "Easily slides onto suitcase handles, making travel seamless and hands-free.",
@@ -253,8 +252,8 @@
         "image_DtfQCH": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/5H8A1762-9x16-desktop.jpg",
-            "imageMobile": "shopify://shop_images/5H8A1762-9x16-desktop.jpg",
+            "image": "shopify://shop_images/5H8A1762.jpg",
+            "imageMobile": "shopify://shop_images/5H8A1762.jpg",
             "title": "",
             "block_title": "Versatile Size (Perfect forCarry-On)",
             "block_text": "Spacious yet compact, ideal for use as a carry-on.",
@@ -268,8 +267,8 @@
         "image_Mr3Fcc": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/5H8A2497-9x16-desktop.jpg",
-            "imageMobile": "shopify://shop_images/5H8A2497-9x16-desktop.jpg",
+            "image": "shopify://shop_images/5H8A2497.jpg",
+            "imageMobile": "shopify://shop_images/5H8A2497.jpg",
             "title": "",
             "block_title": "Soft-Touch, Easy-Clean Nylon",
             "block_text": "Durable, luxurious feel with easy-to-clean material for everyday practicality.",
