@@ -296,6 +296,7 @@
           "type": "logo_image",
           "settings": {
             "image": "shopify://shop_images/passport_pocket.png",
+            "video": "shopify://files/videos/iPack (White Bag) Passport 16x9.mp4",
             "link": "",
             "newTab": false
           }
