@@ -32,7 +32,6 @@
       "block_order": [
         "image_EgwdFH"
       ],
-      "disabled": true,
       "settings": {
         "heroHeight": "var(--heroHeight-l)",
         "cropVideo": false,
@@ -51,6 +50,74 @@
         "heroMetaH1hasBg": false
       }
     },
+    "gs_logolist_V7LTEF": {
+      "type": "gs-logolist",
+      "blocks": {
+        "logo_image_6NN93z": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/bottom_zip_around_shoe_compartment.png",
+            "link": "",
+            "newTab": false
+          }
+        },
+        "logo_image_CMYrtn": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/padded_shoulder_strap.png",
+            "link": "",
+            "newTab": false
+          }
+        },
+        "logo_image_W4xLhB": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/easy_to_clean.png",
+            "link": "",
+            "newTab": false
+          }
+        },
+        "logo_image_YwkKEK": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/soft_touch_nylon.png",
+            "link": "",
+            "newTab": false
+          }
+        },
+        "logo_image_UTrCRE": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/trolly_sleeve.png",
+            "link": "",
+            "newTab": false
+          }
+        },
+        "logo_image_pEx8gw": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/water_bottle_pocket.png",
+            "link": "",
+            "newTab": false
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_6NN93z",
+        "logo_image_CMYrtn",
+        "logo_image_W4xLhB",
+        "logo_image_YwkKEK",
+        "logo_image_UTrCRE",
+        "logo_image_pEx8gw"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "headingAlignment": "start",
+        "headingBg": "rgba(0,0,0,0)",
+        "headingColor": "#000000"
+      }
+    },
     "gs_hero_double_LjczWF": {
       "type": "gs-hero-double",
       "blocks": {
@@ -62,6 +129,7 @@
             "title": "",
             "block_title": "Padded Laptop Pocket",
             "block_text": "Securely fits laptops up to 15 inches for easy transport.",
+            "block_video": "shopify://files/videos/iPack (White Bag) Laptop Sleeve 16x9.mp4",
             "url": "https://9madai-07.myshopify.com/products/ipack-puffy-tote",
             "contentPosition": "top left",
             "heroColor": "#000000",
@@ -77,6 +145,7 @@
             "title": "",
             "block_title": "Two Insulated Drink Sleeves",
             "block_text": "Keeps beverages conveniently accessible and at the right temperature.",
+            "block_video": "shopify://files/videos/iPack (White Bag) Water Bottle 16x9.mp4",
             "url": "https://9madai-07.myshopify.com/products/ipack-puffy-tote",
             "contentPosition": "top left",
             "heroColor": "#000000",
@@ -92,6 +161,7 @@
             "title": "",
             "block_title": "Adjustable Comfort-PaddedShoulder Strap",
             "block_text": "Designed for all-day comfort, even when carrying heavy loads.",
+            "block_video": "shopify://files/videos/iPack (White Bag) Shoulder Strap 16x9.mp4",
             "url": "https://9madai-07.myshopify.com/products/ipack-puffy-tote",
             "contentPosition": "top left",
             "heroColor": "#000000",
@@ -122,6 +192,7 @@
             "title": "",
             "block_title": "Zip-Around RoamerCompartment at the Base",
             "block_text": "Extra storage at the bottom for additional organization.",
+            "block_video": "shopify://files/videos/iPack (White Bag) Shoe Compartment 16x9.mp4",
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
@@ -167,7 +238,7 @@
           "settings": {
             "image": "shopify://shop_images/5H8A1868-9x16-desktop_3c9e3a3a-540b-45d1-a03a-72c6ff95135f.jpg",
             "imageMobile": "shopify://shop_images/5H8A1868-9x16-desktop_3c9e3a3a-540b-45d1-a03a-72c6ff95135f.jpg",
-            "title": "",
+            "title": "Your hero image heading",
             "block_title": "Trolly Sleeve",
             "block_text": "Easily slides onto suitcase handles, making travel seamless and hands-free.",
             "url": "",
@@ -223,6 +294,7 @@
   "order": [
     "main",
     "gs_hero_AKKB8W",
+    "gs_logolist_V7LTEF",
     "gs_hero_double_LjczWF",
     "gs_hero_double_gyntVy"
   ]
