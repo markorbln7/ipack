@@ -25,7 +25,7 @@
           "type": "video",
           "settings": {
             "video": "shopify://files/videos/iPack Video Banner 16x91.mov",
-            "videoLoop": false,
+            "videoLoop": true,
             "videoMute": true,
             "videoAutoplay": true,
             "clickToPlay": true,
