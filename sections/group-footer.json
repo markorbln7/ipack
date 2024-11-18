@@ -88,7 +88,7 @@
         "copyright": {
           "type": "copyright",
           "settings": {
-            "copyright": "",
+            "copyright": "© 2024 iPack. All rights reserved.",
             "alignment": "start",
             "fullwidth": false
           }
