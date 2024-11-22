@@ -38,7 +38,7 @@
         "video_aM8yQM"
       ],
       "custom_css": [
-        "@media only screen and (max-width: 768px) {.hero-text {margin-top:25px; }}"
+        ".hero.html5video {overflow: hidden;}"
       ],
       "settings": {
         "heroHeight": "var(--heroHeight-f)",
