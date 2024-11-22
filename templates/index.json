@@ -37,6 +37,9 @@
         "image",
         "video_aM8yQM"
       ],
+      "custom_css": [
+        "@media only screen and (max-width: 768px) {.hero-text {margin-top:25px; }}"
+      ],
       "settings": {
         "heroHeight": "var(--heroHeight-f)",
         "cropVideo": false,
