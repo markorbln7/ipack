@@ -135,70 +135,99 @@
         "enable_video_looping": false
       }
     },
-    "gs_logolist_iUp4qR": {
-      "type": "gs-logolist",
+    "gs_logolist_scroll_nPGwyj": {
+      "type": "gs-logolist-scroll",
       "blocks": {
-        "logo_image_GFYU9w": {
+        "logo_image_9bJPyt": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify://shop_images/bottom_zip_around_shoe_compartment.png",
+            "image": "shopify://shop_images/bottom_zip_around_shoe_compartment_6baa1d62-362a-4a9c-bb48-87b8cf871ecc.png",
+            "video": "shopify://files/videos/iPack (White Bag) Shoe Compartment 16x9.mp4",
             "link": "",
             "newTab": false
           }
         },
-        "logo_image_CEyxPq": {
+        "logo_image_9M77rT": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify://shop_images/padded_shoulder_strap.png",
+            "image": "shopify://shop_images/padded_shoulder_strap_558e1667-23c2-4416-ba0e-258cb9017b3d.png",
+            "video": "shopify://files/videos/iPack (White Bag) Shoulder Strap 16x9.mp4",
             "link": "",
             "newTab": false
           }
         },
-        "logo_image_jkGtY9": {
+        "logo_image_jUTM6P": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify://shop_images/easy_to_clean.png",
+            "image": "shopify://shop_images/easy_to_clean_59069dd2-11e5-4699-9ba2-db93b7ce21fa.png",
             "link": "",
             "newTab": false
           }
         },
-        "logo_image_wQC9jK": {
+        "logo_image_hzJTpx": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify://shop_images/soft_touch_nylon.png",
+            "image": "shopify://shop_images/soft_touch_nylon_49a0de92-c9bd-4c3e-9680-34c3a06e09ca.png",
+            "video": "shopify://files/videos/iPack (White Bag) Soft Nylon 16x9.mp4",
             "link": "",
             "newTab": false
           }
         },
-        "logo_image_gWAHnT": {
+        "logo_image_fNx6Wt": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify://shop_images/trolly_sleeve.png",
+            "image": "shopify://shop_images/trolly_sleeve_f99c2360-a244-4b1a-8194-7edd3b045584.png",
+            "video": "shopify://files/videos/iPack (White Bag) Trolly Sleeve 16x9.mp4",
             "link": "",
             "newTab": false
           }
         },
-        "logo_image_yDtxXE": {
+        "logo_image_nmgNbP": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify://shop_images/double_padded_laptop_sleeve.png",
+            "image": "shopify://shop_images/water_bottle_pocket_41b4b230-b626-44ba-98ae-61258f2a788b.png",
+            "video": "shopify://files/videos/iPack (White Bag) Water Bottle 16x9.mp4",
+            "link": "",
+            "newTab": false
+          }
+        },
+        "logo_image_gBiewY": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/double_padded_laptop_sleeve_86f669f8-ee92-4947-82e1-3de47cd7bea1.png",
+            "video": "shopify://files/videos/iPack (White Bag) Laptop Sleeve 16x9.mp4",
+            "link": "",
+            "newTab": false
+          }
+        },
+        "logo_image_mmHmfa": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/passport_pocket_40ba7b89-8a95-464d-a34a-2b523c0d6c34.png",
+            "video": "shopify://files/videos/iPack (White Bag) Passport 16x9.mp4",
             "link": "",
             "newTab": false
           }
         }
       },
       "block_order": [
-        "logo_image_GFYU9w",
-        "logo_image_CEyxPq",
-        "logo_image_jkGtY9",
-        "logo_image_wQC9jK",
-        "logo_image_gWAHnT",
-        "logo_image_yDtxXE"
+        "logo_image_9bJPyt",
+        "logo_image_9M77rT",
+        "logo_image_jUTM6P",
+        "logo_image_hzJTpx",
+        "logo_image_fNx6Wt",
+        "logo_image_nmgNbP",
+        "logo_image_gBiewY",
+        "logo_image_mmHmfa"
       ],
-      "disabled": true,
       "settings": {
         "heading": "",
         "headingAlignment": "start",
+        "logoWidth": 60,
+        "logoPadding": 30,
+        "marqueeDirection": "false",
+        "marqueeSpeeds": 100,
+        "marqueePause": true,
         "headingBg": "rgba(0,0,0,0)",
         "headingColor": "#000000"
       }
@@ -274,7 +303,7 @@
   },
   "order": [
     "main",
-    "gs_logolist_iUp4qR",
+    "gs_logolist_scroll_nPGwyj",
     "product-recommendations",
     "gs_hero_double_4rNWF3"
   ]
