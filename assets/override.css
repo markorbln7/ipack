@@ -229,6 +229,9 @@ details summary::after {
     margin: 0 auto;
     margin-left: 15%;
 }
+#mainContent {
+    z-index: 9;
+}
 @media only screen and (max-width: 600px) {
     .info-video {
         max-width: 100%;
