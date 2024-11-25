@@ -208,7 +208,7 @@
         "title": "Carry-on",
         "content": "Wherever you go take iPack with you.",
         "cta": "only available in stores",
-        "url": "https://www.costco.com/WarehouseListByStateDisplayView",
+        "url": "https://www.costco.com/warehouse-locations",
         "contentPosition": "center between",
         "contentDirection": "row",
         "textAlignment": "left",
@@ -318,7 +318,7 @@
           "type": "button",
           "settings": {
             "button_label": "Get Yours",
-            "button_link": "https://www.costco.com/WarehouseListByStateDisplayView",
+            "button_link": "https://www.costco.com/warehouse-locations",
             "buttonBg": "#000000",
             "buttonColor": "#ffffff"
           }
