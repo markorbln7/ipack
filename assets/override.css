@@ -234,4 +234,11 @@ details summary::after {
         max-width: 100%;
         margin-left: 0%;
     }
+    .reviews .box>x-cell {
+        flex: 0 0 100%; /* Make each item 25% of the wrapper width */
+    }
+    .reviews .box {
+        display: inline-flex; /* Align divs horizontally */
+        animation: scroll-chiron 10s linear infinite; /* Duration can be adjusted */
+    }
   }
