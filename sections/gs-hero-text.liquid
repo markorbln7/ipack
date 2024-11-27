@@ -2,7 +2,7 @@
 	<div class="cta" style="--heroTextFontSize:{{ section.settings.size }}px;--heroTextFontHeight:{{ section.settings.lineHeight }};--heroTextFontColor:{{ section.settings.color }}">
     {{ section.settings.body }}
     {% if section.settings.hero_text_logo != blank  %}
-      <span><img width="100" height="auto" src="{{ section.settings.hero_text_logo | img_url:'master' }}"></span>
+      <span><a href="{{ section.settings.url }}"><img width="100" height="auto" src="{{ section.settings.hero_text_logo | img_url:'master' }}"></a></span>
     {% endif %}
   </div>
 	{%- if section.settings.cta != blank -%}
