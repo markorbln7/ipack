@@ -300,12 +300,49 @@
         "perRow": "3",
         "perRowMob": "1"
       }
+    },
+    "gs_hero_wahwfE": {
+      "type": "gs-hero",
+      "blocks": {
+        "video_LaHmKk": {
+          "type": "video",
+          "settings": {
+            "video": "{{ product.metafields.custom.video.value }}",
+            "videoLoop": false,
+            "videoMute": true,
+            "videoAutoplay": false,
+            "clickToPlay": true,
+            "playPause": true
+          }
+        }
+      },
+      "block_order": [
+        "video_LaHmKk"
+      ],
+      "settings": {
+        "heroHeight": "var(--heroHeight-f)",
+        "cropVideo": false,
+        "title": "",
+        "content": "",
+        "cta": "",
+        "url": "",
+        "contentPosition": "center between",
+        "contentDirection": "row",
+        "textAlignment": "left",
+        "contentPositionMob": "center between",
+        "contentDirectionMob": "column",
+        "textAlignmentMob": "center",
+        "heroMetaH1Bg": "#FFFFFF",
+        "heroMetaH1Color": "#000000",
+        "heroMetaH1hasBg": false
+      }
     }
   },
   "order": [
     "main",
     "gs_logolist_scroll_nPGwyj",
     "product-recommendations",
-    "gs_hero_double_4rNWF3"
+    "gs_hero_double_4rNWF3",
+    "gs_hero_wahwfE"
   ]
 }
