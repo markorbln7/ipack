@@ -310,7 +310,7 @@
             "video": "{{ product.metafields.custom.video.value }}",
             "videoLoop": false,
             "videoMute": true,
-            "videoAutoplay": false,
+            "videoAutoplay": true,
             "clickToPlay": true,
             "playPause": true
           }
