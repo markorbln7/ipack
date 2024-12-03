@@ -48,8 +48,12 @@ If you want to reuse the player in your section, please refer to 'gs-hero.liquid
             endif
             assign viewport = 'desktop'
             assign vidPoster = vid.preview_image | image_url: width: 1500
+            if vid.sources[1].url != blank
+                assign vidUrl = vid.sources[1].url
+            else
+                assign vidUrl = vid.sources[0].url
+            endif
         -%}
-
         <video-player x-grid columns="absolute" data-viewport="{{ viewport }}" class="{{ style }}">
             <video class="js"
                 poster="{{ vidPoster }}"
@@ -61,7 +65,7 @@ If you want to reuse the player in your section, please refer to 'gs-hero.liquid
                 {% if clickToPlay %}click-play{% endif %}
             >
                 {%- for video in vid.sources -%}
-                    <source data-src="{{ vid.sources[1].url }}" type="{{ video.mime_type }}">
+                    <source data-src="{{ vidUrl }}" type="{{ video.mime_type }}">
                 {%- endfor -%}
 
             </video>

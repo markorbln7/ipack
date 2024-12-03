@@ -129,11 +129,16 @@
                   <h2>{{ block.settings.block_title }}</h2>
                   <p>{{ block.settings.block_text }}</p>
                 </div>
-                {% if block.settings.block_video %}
-                <div data-video="{{ block.settings.block_video.sources[1].url }}" class="learn-more js-info-play-trigger">
-                  Learn More <span class="arrow">→</span>
+                <div>
+                  {% if block.settings.block_video %}
+                  <div data-video="{{ block.settings.block_video.sources[1].url }}" class="learn-more js-info-play-trigger">
+                    Learn More <span class="arrow">→</span>
+                  </div>
+                  {% endif %}
+                    <a href="https://www.costco.com/ipack-puffy-tote.product.4000319679.html" class="buy-now learn-more">
+                      Buy Now <span class="arrow">→</span>
+                    </a>
                 </div>
-                {% endif %}
               </div>
             {% endif %}
 
@@ -262,6 +267,11 @@
           "type": "video",
           "id": "block_video",
           "label": "Block Video"
+        },
+        {
+          "type": "url",
+          "id": "block_url",
+          "label": "Block Url"
         },
         {
           "type": "url",
