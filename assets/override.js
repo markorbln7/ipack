@@ -6,6 +6,7 @@ infoPlayTrigers.forEach((infoTriger) => {
         console.log(infoVideo, 'this')
         document.querySelector('.info-video').src = infoVideo;
         document.querySelector('.product-play-overlay').classList.add('show');
+        document.querySelector('.main-header').classList.add('zindexnone');
         document.querySelector('body').classList.add('no-scroll')
         document.querySelector('html').classList.add('no-scroll')
         setTimeout(() => {
@@ -16,6 +17,7 @@ infoPlayTrigers.forEach((infoTriger) => {
 })
 closePlayBtn.addEventListener('click', (e) => {
     document.querySelector('.product-play-overlay').classList.remove('show');
+    document.querySelector('.main-header').classList.remove('zindexnone');
     document.querySelector('body').classList.remove('no-scroll')
     document.querySelector('html').classList.remove('no-scroll')
     document.querySelector('.info-video').pause();
