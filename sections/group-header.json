@@ -16,7 +16,7 @@
       "settings": {
         "homeOnly": false,
         "marqueeMarquee": true,
-        "notice": "$39.99 Exclusivly Available At Costco In Store And Costco.com",
+        "notice": "$49.99 Exclusivly Available At Costco In Store And Costco.com",
         "link": "",
         "marqueeDirection": "false",
         "marqueeSpeeds": 70,
@@ -65,7 +65,7 @@
       ],
       "custom_css": [
         ".cartCounter {display: none;}",
-        "#mainContent {z-index:9;}"
+        "#mainContent {z-index: 9;}"
       ],
       "settings": {
         "headerPosition": true,
