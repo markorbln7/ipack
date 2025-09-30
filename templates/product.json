@@ -34,6 +34,7 @@
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
             "hidePriceSold": false
           }
@@ -252,6 +253,7 @@
             "title": "",
             "block_title": "",
             "block_text": "",
+            "block_url": "",
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
@@ -267,6 +269,7 @@
             "title": "",
             "block_title": "",
             "block_text": "",
+            "block_url": "",
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
@@ -282,6 +285,7 @@
             "title": "",
             "block_title": "",
             "block_text": "",
+            "block_url": "",
             "url": "",
             "contentPosition": "top left",
             "heroColor": "#000000",
@@ -332,7 +336,7 @@
         "contentPositionMob": "center between",
         "contentDirectionMob": "column",
         "textAlignmentMob": "center",
-        "heroMetaH1Bg": "#FFFFFF",
+        "heroMetaH1Bg": "#ffffff",
         "heroMetaH1Color": "#000000",
         "heroMetaH1hasBg": false
       }
