@@ -44,10 +44,11 @@
     "cardHoverImg": false,
     "cardImgRadius": false,
     "cardImgPadding": false,
+    "cardMainPrice": false,
     "cardQuickBuy": true,
     "cardHoverQuickBuy": true,
-    "cardQuickBuyButtonPrice": true,
-    "cardQuickBuySelectPrice": true,
+    "cardQuickBuyButtonPrice": false,
+    "cardQuickBuySelectPrice": false,
     "cardBg": "rgba(0,0,0,0)",
     "cardColor": "#000000",
     "cardTextBg": "rgba(0,0,0,0)",
@@ -283,5 +284,8 @@
       "primary": "#000000",
       "accent": "#000000"
     }
+  },
+  "platform_customizations": {
+    "custom_css": []
   }
 }
